@@ -142,6 +142,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1956: Hay! Krajewski!**
 - Creation Date: November 23rd, 2025
 
+**The Hazbin Trail Redux**
+- Creation Date: December 13th, 2025
+
 -------
 
 And now? I'm creating/editing even more Code 1s...
