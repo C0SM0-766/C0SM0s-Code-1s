@@ -1249,7 +1249,7 @@ campaignTrail_temp.achievements = {
 		const redemptionTrack3 = new Track(
 		  "Insane",
 		  "Black Gryph0n ft. Baasik",
-		  "https://upload.wikimedia.org/wikipedia/en/f/fa/Insane_-_Black_Gryph0n_and_Baasik.png",
+		  "https://files.catbox.moe/zminvc.jpg",
 		  "https://files.catbox.moe/jl2af6.mp3"
 		);
 		
