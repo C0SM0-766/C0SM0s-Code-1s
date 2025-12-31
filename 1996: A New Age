@@ -1,0 +1,864 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>After four years of Paul Tsongas' gentle brand of liberalism, the President's sudden withdrawal owing to health concerns has shaken up the 1996 race.<br><br>• James Baker must emphasize Tsongas' missteps and increasing dissatisfaction with his policies among Democrats.<br><br>• Tom Harkin must win back the trust of liberals & independents while pressing the strong economy.</p>",
+            "image_url": "https://files.catbox.moe/mxt1xc.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/9g1pja.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1996: A New Age"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Harkin",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Iowa",
+            "priority": 1,
+            "description": "<p>Tom Harkin has served as Vice President to Paul Tsongas for the past four years, following seven years representing lowa as a Senator. A skilled legislator, Harkin sat on several key Senate committees, and was largely responsible for drafting the core provisions of the 1990 Americans With Disabilities Act.<br><br>Harkin's supporters claim his bipartisan mentality equips him to take on the burdens of the presidency, but progressive Democrats find Harkin an uninspiring, cautious figure, which could boost the chances of Ralph Nader's third-party ticket. Harkin will need to make a strategic choice between turning further to the right, and appeasing his disaffected left flank.",
+            "color_hex": "#274070",
+            "secondary_color_hex": "#274070",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/9b17kw.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Baker",
+            "election": 9,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 2,
+            "description": "<p>James Baker served as Secretary of State in the Bush administration from 1989 to 1992, playing an instrumental role in managing the collapse of the Soviet Union and the Eastern Bloc's subsequent transition towards democracy. In 1993, Baker was the Republican candidate in the Senate special election in Texas triggered by Lloyd Bentsen's appointment as Secretary of Defense, winning by a landslide margin.<br><br>In the Senate, Baker has forcefully spoken out on the Tsongas administration's foreign policy failures, especially Tsongas' unsuccessful interventions in Somalia and Eastern Europe. Winning the GOP nomination largely as a result of his foreign policy experience, Baker will have to stake out his domestic agenda, while carefully placating paleoconservatives like Buchanan in order to win this election.",
+            "color_hex": "#702827",
+            "secondary_color_hex": "#702827",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/2d3gt5.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Lamm",
+            "election": 9,
+            "party": "Reform",
+            "state": "Colorado",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#512770",
+            "secondary_color_hex": "#512770",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader/Others",
+            "election": 9,
+            "party": "Green/Various",
+            "state": "Connecticut/Various",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#2d7027",
+            "secondary_color_hex": "#2d7027",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "Rubin",
+            "election": 9,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/aqic7j.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<i>Some people are more certain of everything than I am of anything.</i><br><p>Robert Rubin has served as Treasury Secretary since 1994, following the resignation of Tsongas' original choice, Dick Gephardt, in protest at Tsongas' refusal to commit to a protectionist economic agenda. Rubin has strong links with the Democratic establishment, and is viewed as a conservative, cautious figure, favouring deregulation and loosening banking restrictions.<br><br>Selecting Rubin would emphasize your intention to pursue a business-friendly, moderate course on the economy, which could work in your favour on the trail. On the other hand, picking a conservative insider like Rubin would antagonize liberal Democrats, and provide a real opening for Ralph Nader's insurgent bid.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Norman",
+            "last_name": "Schwarzkopf",
+            "election": 9,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/1cjg24.jpeg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<i>The truth of the matter is that you always know the right thing to do. The hard part is doing it.</i><br><p>General Norman Schwarzkopf, or \"Stormin' Norman\", needs no introduction to the American people. Schwarzkopf gained national acclaim for his leadership during the Gulf War, publishing a successful memoir. Since then, Schwarzkopf has maintained a high national profile, speaking out on foreign and defense issues, and some of your advisors believe that selecting Schwarzkopf would hammer home the foreign policy focus of your candidacy.<br><br>On the other hand, Schwarzkopf isn't a natural campaigner, and may lack the political instincts of your more seasoned choices.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "Gargan",
+            "election": 9,
+            "party": "Reform",
+            "state": "Florida",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#ff00ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "Winona",
+            "last_name": "LaDuke",
+            "election": 9,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 142053,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 157206,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 128099,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 84
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Jackreacher2975"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "1996: A New Age"
+    }
+]
+
+jet_data = {
+    "headerColor": "#808080",
+    "windowColor": "#ebebeb",
+    "containerColor": "#a9a9a9",
+    "innerWindowColor": "#d3d3d3",
+    "bannerImageUrl": "https://files.catbox.moe/cd0xgv.png",
+    "backgroundImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/New_York_City_1996_007.jpg/2560px-New_York_City_1996_007.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#808080";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#d3d3d3";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#a9a9a9";
+
+$("#game_window")[0].style.backgroundColor = "#ebebeb"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/cd0xgv.png";
+
+document.body.background = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/New_York_City_1996_007.jpg/2560px-New_York_City_1996_007.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#d3d3d3!important;}</style>";
+
+quotes = ["''My view is that you don't just talk to your friends. You talk to your enemies, as well.'' ~ James Baker", "''America is hope. It is compassion. It is excellence. It is valor.'' ~ Paul Tsongas", "''Our destiny is greatness and we must return to its fulfillment.'' ~ Paul Tsongas", "''Let's face it, in America today we don't have a health care system, we have a sick care system.'' ~ Tom Harkin", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#808080",
+  "header_text_color": "#000000",
+  "description_text_color": "#000000",
+  "description_background_color": "#d3d3d3",
+  "main_color": "#a9a9a9",
+  "secondary_color": "#808080",
+ "ui_text_color": "#ffffff"
+}
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>Jackreacher2975</button>";
+  
+window.credits = function() {
+  const creditsList = ["Jackreacher2975, for the writing & original mod concept.", "C0SM0, for the code 1 & images.", "", "Banner provided by littleamericanman_85501.", "Soundtrack code provided by Houseyhouse.", "Some codes provided by DecStarG & Jet."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+document.querySelectorAll("link[rel*='icon']").forEach(el => el.remove());
+
+const favican = document.createElement("link");
+favican.rel = "icon";
+favican.type = "png";
+favican.href = "https://files.catbox.moe/601a9x.png";
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #808080;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+HistHexcolour=["#274070","#702827","#512770","#2d7027"];
+    HistName=[" James Baker"," Tom Harkin"," Richard Lamm"," Ralph Nader/Others"];
+    HistEV=[301,237,0,0];
+    HistPV=["47,616,570","45,785,163","2,373,001","607,175"];
+    HistPVP=["49.4%","47.5%","2.5%","0.6%"];
+
+    // Select the node that will be observed for mutations
+    const windowsAdvisorTargetNode = document.getElementById("game_window");
+    
+    // Options for the observer (which mutations to observe)
+    const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+    
+    // Callback function to execute when mutations are observed
+    const callback = (mutationList, observer) => {
+        visitWindow = document.getElementsByClassName("overlay_window")[0];
+    
+        if(visitWindow == null || visitWindow.classList.contains("done")) {
+            return;
+        }
+        visitWindow.classList.add("done");
+        visitWindow.classList.add("window");
+        let titleBar = visitWindow.querySelector("h3");
+        titleBar.classList.add("title-bar");
+        titleBar.classList.add("title-bar-text")
+        titleBar.style.paddingLeft = "3px";
+    };
+    
+    // Create an observer instance linked to the callback function
+    const windowsAdvisorObserver = new MutationObserver(callback);
+    
+    // Start observing the target node for configured mutations
+    windowsAdvisorObserver.observe(windowsAdvisorTargetNode, windowsAdvisorConfig);
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://jetsimon.com/public/crt.css"
+    >`
+    
+    document.body.classList.add("crt");
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+    }
+    </style>`
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    </style>`
+
+let crtStyle = document.createElement('style');
+document.head.appendChild(crtStyle);
+
+let crtOn = true;
+var setCRTLines = (enabled) => {
+    crtStyle.innerText = enabled ? "" : ".crt::before {background: none;}";
+}
+footer = $(".footer")[0]
+var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
+button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
+button.innerHTML = "Toggle CRT Lines"
+footer.insertBefore(button, footer.firstChild);
+button.addEventListener("click", () => {crtOn = !crtOn; setCRTLines(crtOn)});
+
+function ensureStylesheet(url, id) {
+	if (id && document.getElementById(id)) {
+        if (id === 'unpkg-7css') {
+            const link = document.getElementById(id);
+if (link) link.remove();
+            return; 
+        }
+        return;
+    }
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
+
+
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() { return this.title; }
+  getArtist() { return this.artist; }
+  getCoverLink() { return this.coverLink; }
+  getAudioLink() { return this.audioLink; }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+  playNext() { this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length; }
+  playPrevious() { this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length; }
+}
+
+function updateUI(playlist, root) {
+  const currentSong = playlist.getCurrentSong();
+  root.querySelector("#cover").src = currentSong.getCoverLink();
+  root.querySelector("#title").textContent = currentSong.getTitle();
+  root.querySelector("#artist").textContent = currentSong.getArtist();
+  root.querySelectorAll("#playlist-list li").forEach((li, i) => {
+    li.classList.toggle("active", i === playlist.currentSongIndex);
+  });
+}
+
+function setupMusicPlayer() {
+  const songs = [
+    ["Pressure","Billy Joel","https://upload.wikimedia.org/wikipedia/en/e/e8/PressureBillyJoel.jpg","https://files.catbox.moe/59ikq4.mp3"],
+    ["Walkin' On The Sun","Smash Mouth","https://i.scdn.co/image/ab67616d0000b27366ec7d795b727cd90bd09690","https://files.catbox.moe/jgcx50.mp3"],
+    ["Man In The Box","Alice In Chains","https://upload.wikimedia.org/wikipedia/en/2/21/Man_In_The_Box_CD.jpeg","https://files.catbox.moe/2yhy6l.mp3"],
+    ["Burnout","Green Day","https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg","https://files.catbox.moe/6fmlsj.mp3"],
+    ["Mailman","Soundgarden","https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg","https://files.catbox.moe/3s6s6n.mp3"],
+    ["Man On A Mission","Bad Religion","https://upload.wikimedia.org/wikipedia/en/c/c3/BadReligionRecipeForHate.jpg","https://files.catbox.moe/ewofcg.mp3"],
+    ["Love Me, I'm A Liberal","Jello Biafra, Mojo Nixon","https://i.scdn.co/image/ab67616d0000b273b79cc4b3ecfbb32b8ca78c6a","https://audio.jukehost.co.uk/9oOaNn0HQwCSGnTjzwCXnybZnnClVZ99"],
+  ];
+
+  const playlist = new Playlist();
+  songs.forEach(([t,a,c,l]) => playlist.addSong(new Song(t,a,c,l)));
+
+  const host = document.createElement("div");
+  host.id = "mac-player-host";
+  const shadow = host.attachShadow({ mode: "open" });
+  document.getElementById("game_window").insertAdjacentElement("afterend", host);
+
+  shadow.innerHTML = `
+  <style>
+    #player {
+      font-family: "Chicago", "Geneva", sans-serif;
+      color: #000;
+      background-color: #ffffffff;
+      border: 3px solid #000;
+      width: 520px;
+      margin: 25px auto;
+    }
+    #mac-window {
+      border: 2px solid #000;
+      background: #dcdcdc;
+    }
+    #mac-title-bar {
+      background: #4b4b4bff;
+      color: #fff;
+      padding: 5px;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 2px solid #4b4b4bff;
+    }
+    #mac-content {
+      display: flex;
+      flex-direction: row;
+      background: #ffffffff;
+    }
+    #playlist-box {
+      width: 220px;
+      height: 300px;
+      overflow-y: auto;
+      background: #f2f2f2;
+      border-right: 2px solid #000;
+      font-size: 14.5px;
+    }
+    #playlist-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    #playlist-list li {
+      padding: 4px 8px;
+      border-bottom: 1px solid #000;
+      cursor: pointer;
+      background: #fff;
+    }
+    #playlist-list li:hover { background: #ccc; }
+    #playlist-list li.active {
+      background: #c7c7c7ff;
+      color: #020202ff;
+    }
+    #display-box {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      background: #ffffffff;
+    }
+    #cover {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #000;
+      margin-bottom: 8px;
+      filter: none;
+    }
+    #info h3 { margin: 2px 0; font-size: 15px; }
+    #info p { margin: 0 0 6px 0; font-size: 11px; }
+    #controls { display: flex; justify-content: center; margin-top: 6px; }
+    #controls button {
+      background: #f4f4f4;
+      border: 1px solid #000;
+      margin: 3px;
+      font-size: 13px;
+      cursor: pointer;
+      width: 40px;
+      height: 22px;
+      color: #000;
+    }
+    #controls button:hover {
+      background: #000;
+      color: #fff;
+    }
+    #progress-shell {
+      width: 90%;
+      height: 10px;
+      border: 1px solid #000;
+      margin-top: 10px;
+      background: #fff;
+      position: relative;
+    }
+    #progress-fill {
+      background: #000;
+      height: 100%;
+      width: 0%;
+    }
+    #volume-box { margin-top: 6px; font-size: 10px; }
+    #volumeSlider {
+      width: 90px;
+      height: 10px;
+      appearance: none;
+      -webkit-appearance: none;
+      background: #d0d0d0;
+      outline: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #volumeSlider::-webkit-slider-runnable-track {
+      height: 10px;
+      background: #d0d0d0;
+      border-radius: 3px;
+    }
+
+    #volumeSlider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 16px;
+      background: #8a8a8a; 
+      border: 2px solid #666;
+      margin-top: -3px; 
+      cursor: pointer;
+    }
+
+    #volumeSlider::-moz-range-track {
+      height: 10px;
+      background: #d0d0d0;
+      border-radius: 3px;
+    }
+    #volumeSlider::-moz-range-thumb {
+      width: 14px;
+      height: 16px;
+      background: #8a8a8a;
+      border: 2px solid #666;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    #volumeSlider::-ms-track {
+      height: 10px;
+      background: transparent;
+      border-color: transparent;
+      color: transparent;
+    }
+    #volumeSlider::-ms-fill-lower,
+    #volumeSlider::-ms-fill-upper {
+      background: #d0d0d0;
+      border-radius: 3px;
+    }
+    #volumeSlider::-ms-thumb {
+      width: 14px;
+      height: 16px;
+      background: #8a8a8a;
+      border: 2px solid #666;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+
+  <div id="player">
+    <div id="mac-window">
+      <div id="mac-title-bar"><span>Macintosh Player.</span></div>
+      <div id="mac-content">
+        <div id="playlist-box"><ul id="playlist-list"></ul></div>
+        <div id="display-box">
+          <img id="cover">
+          <div id="info">
+            <h3 id="title"></h3>
+            <p id="artist"></p>
+            <div id="controls">
+              <button id="prevButton">◀◀</button>
+              <button id="playPauseButton">▶</button>
+              <button id="nextButton">▶▶</button>
+            </div>
+            <div id="progress-shell"><div id="progress-fill"></div></div>
+            <div id="volume-box">
+              <label>VOL</label>
+              <input id="volumeSlider" type="range" min="0" max="9" value="1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  `;
+
+  const root = shadow;
+
+  const playlistList = root.querySelector("#playlist-list");
+  playlist.songs.forEach((song, i) => {
+    const li = document.createElement("li");
+    li.textContent = `${song.getTitle()} - ${song.getArtist()}`;
+    li.addEventListener("click", () => {
+      playlist.currentSongIndex = i;
+      updateUI(playlist, root);
+      const audio = document.getElementById("audio");
+      audio.src = song.getAudioLink();
+      audio.play();
+    });
+    playlistList.appendChild(li);
+  });
+
+  // Controls
+  const playPauseButton = root.querySelector("#playPauseButton");
+  const prevButton = root.querySelector("#prevButton");
+  const nextButton = root.querySelector("#nextButton");
+  const progressFill = root.querySelector("#progress-fill");
+  const volumeSlider = root.querySelector("#volumeSlider");
+
+  const audio = document.getElementById("audio") || document.createElement("audio");
+  audio.id = "audio";
+  if (!document.getElementById("audio")) document.body.appendChild(audio);
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.volume = 1 / 9;
+
+  playPauseButton.addEventListener("click", () => {
+    if (audio.paused) { audio.play(); playPauseButton.textContent = "❚❚"; }
+    else { audio.pause(); playPauseButton.textContent = "▶"; }
+  });
+
+  nextButton.addEventListener("click", () => {
+    playlist.playNext();
+    updateUI(playlist, root);
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+  prevButton.addEventListener("click", () => {
+    playlist.playPrevious();
+    updateUI(playlist, root);
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+
+  audio.addEventListener("timeupdate", () => {
+    if (audio.duration) {
+      const pct = (audio.currentTime / audio.duration) * 100;
+      progressFill.style.width = pct + "%";
+    }
+  });
+
+audio.addEventListener("ended", () => {
+  if (!playlist || !playlist.songs || playlist.songs.length === 0) return;
+
+  playlist.playNext();
+  updateUI(playlist, root);
+
+  const nextSong = playlist.getCurrentSong();
+  if (!nextSong) return;
+  const nextSrc = typeof nextSong.getAudioLink === "function"
+    ? nextSong.getAudioLink()
+    : nextSong.audioLink;
+
+  if (!nextSrc) return;
+
+  audio.pause();                 
+  audio.src = nextSrc;
+  audio.load();                  
+  audio.currentTime = 0;
+
+  const playPromise = audio.play();
+  if (playPromise && typeof playPromise.catch === "function") {
+    playPromise.catch(() => {
+    });
+  }
+
+  const pp = root.querySelector && root.querySelector("#playPauseButton");
+  if (pp) pp.textContent = "❚❚";
+});
+
+
+  volumeSlider.addEventListener("input", () => {
+    audio.volume = volumeSlider.value / 9;
+  });
+
+  updateUI(playlist, root);
+  audio.play();
+}
+
+setupMusicPlayer();
+
+//#endcode
