@@ -1,0 +1,1119 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<p>September 11th, 2001: The day the world turned upside down. Nearly 4,000 people plus the Capitol Building & the White House went up in flames caused by Islamic extremists spiteful of America itself. In response, president George W. Bush has reigned in the powers of the president and sent American boys overseas. To Afghanistan, to Iraq, to Iran—nothing could quench the thirst for revenge of the president.<br><br>After winning re-election in a landslide against the Reverend Al Sharpton, Bush has concluded that he hasn't destroyed third-world countries enough. With the help of his master Dick and the Supreme Court overthrowing the 22nd Amendment, Bush will do whatever it takes to keep the bloody sword of freedom away from the Democrats and into his grubby hands.</p>",
+            "image_url": "https://files.catbox.moe/g22s25.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/kte261.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://files.catbox.moe/2fymgd.jpeg",
+            "creator": "Dan Bryan",
+            "display_year": "2008 - The Tempest"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "George W.",
+            "last_name": "Bush",
+            "election": 3,
+            "party": "Republican",
+            "state": "''President'' of the United States",
+            "priority": 1,
+            "description": "<p>What right does he have to win a third term? Tell it to his face, and he'll chuckle, exclaiming the need for a \"strong leader against strong adversaries across the shining seas\". If the Constitution has to be burned to fit his jingoistic agenda, he and his cult of Klansmen & rednecks would gladly do it. George W. Bush has molded the country into a dystopia that labels itself as a divine entity against the forces of evil.<br><br>Since 2004, Bush has taught himself to not take shit from his opponents—to not be a compromiser, but a fighter for reactionary values, no matter the cost. As countries like Iran & France cry imperialism, Bush continues to act Napoleonic in rhetoric as well as policy. If he achieves the same feat as Roosevelt, the tempest will crest over the free world, plunging the free world into the dark unknown.</p>",
+            "color_hex": "#6e2020",
+            "secondary_color_hex": "#6e2020",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/j266jW8J/gettyimages-82801320-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your spirited defense, Mitt Romney has won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, Romney will become America's first Mormon president.</p><p>On the political front, it appears that Romney will make a push for more tax cuts to revive the economy. He will also try to repeal your health care law. If your defeat was narrow enough, you may be able to attempt a comeback in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Liberal Hacks",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Perpetual Opposition",
+            "priority": 2,
+            "description": "<p>Mitt Romney enters the 2012 campaign as the Republican challenger. He has a record of public service as the former Governor of Massachusetts and he also headed Bain Capital for many years. He is generally perceived as a pro-business moderate and a competent manager.</p><p>Due to Romney's evolving positions on health care and social issues over the years, some conservatives question his sincerity. His challenge is to win that faction without alienating mainstream voters.",
+            "color_hex": "#203a6e",
+            "secondary_color_hex": "#203a6e",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your best efforts, Barack Obama has been reelected to a second term as President.</p><p>On the political front, it appears that Obamacare will survive and go into effect. While the economy has not recovered as strongly as Obama hoped and promised, he will now have four more years to leave a strong legacy to his Democratic successor. No doubt the Republicans will learn from your failure and come back stronger in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and pundits who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.8,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 36,
+        "fields": {
+            "first_name": "The",
+            "last_name": "RINOs",
+            "election": 3,
+            "party": "Libertarian/Constitution",
+            "state": "Spoiler Candidate",
+            "priority": 3,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After failing to secure the Republican nomination, Ron Paul strikes out as an independent candidate. While it will be a tall order for him to win this election, he hopes to expand his political network and prove the viability of a similar candidate in 2016. His supporters, for their part, now have their biggest stage from which to educate the American public on the fiscal and constitutional issues that Ron Paul holds most dear.</p>",
+            "color_hex": "#24f206e",
+            "secondary_color_hex": "#24f206e",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0.1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 19,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Crackhead Hippies",
+            "election": 3,
+            "party": "Green/Peace & Freedom",
+            "state": "Dove Dumbasses",
+            "priority": 4,
+            "description": "<p>Stein will most likely feature as a footnote in the 2012 election, though she could draw support from Obama if he veers too close to the political center.</p>",
+            "color_hex": "#206e21",
+            "secondary_color_hex": "#206e21",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "<h3>Wow! You have won the election.</h3><p>This has to rank as one of the biggest upsets in political history. Prepare to implement your radically progressive agenda in the United States of America!</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 27,
+        "fields": {
+            "first_name": "Dick",
+            "last_name": "Cheney",
+            "election": 3,
+            "party": "Republican",
+            "state": "Master Of Puppets",
+            "priority": 5,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After an upset in the Republican nomination battle, Newt Gingrich heads into the general election with strong support from fiscal and social conservatives. Better known for his House leadership in the 1990s, he must find a way to regain popularity and relevance, and to convince American voters that he can address their economic concerns more effectively than Obama.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/0570n38b/gettyimages-527628720-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations</h3>",
+            "electoral_loss_message": "<h3>Better luck next time</h3>",
+            "no_electoral_majority_message": "<h3>Interesting</h3>",
+            "description_as_running_mate": "<p>Hunched over the desk and his fingers intertwined, coupled with an expressionless face along with his glasses—a sign of complete satisfaction for Dick Cheney. The Führer of Haliburton is now the Himmler of the American Republic, pulling the strings behind the scenes. To some, he's Satan reincarnated into a politician. But for others, he's a force of righteousness and patriotism. Cheney rejects both images, instead portraying himself as the mastermind of the Bush administration that admits to scarring the third world under his jackboot.<br><br>The war crimes climb, the amount of lives continue to be shattered—Dick doesn't care. As long as American boys continue to get sent to the slaughterhouse in the name of justice, it's all well. He'll get what he wants in the end—that's a given.</p>",
+            "candidate_score": 0.12,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 30,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Democrat",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Filler-In",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-biden-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Joe Biden is the current Vice President and Obama's presumptive pick for 2012. He served as a Senator from Delaware for many years.</p><p>Well connected to the mainstream Democratic establishment, there are few complaints about Biden's performance thus far, though he does have a reputation as being gaffe-prone.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 38,
+        "fields": {
+            "first_name": "Chuck",
+            "last_name": "Baldwin",
+            "election": 3,
+            "party": "Constitution",
+            "state": "Minor Side Character",
+            "priority": 13,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 39,
+        "fields": {
+            "first_name": "Cynthia",
+            "last_name": "McKinney",
+            "election": 3,
+            "party": "Green",
+            "state": "Loud-mouthed Schizo",
+            "priority": 14,
+            "description": "n/a",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 8,
+        "fields": {
+            "candidate": 19,
+            "running_mate": 39
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 90294,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 27
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 178944,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 80467,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 38
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 32,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 3,
+        "year": 2012,
+        "is_premium": 0,
+        "display_year": "2008 - The Tempest"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#000000",
+    "containerColor": "#000000",
+    "innerWindowColor": "#212121",
+    "bannerImageUrl": "https://files.catbox.moe/96iau7.png",
+    "backgroundImageUrl": "https://files.catbox.moe/ore50y.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000000";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.ibb.co/BKz0kdh/image.png)"
+
+$("#game_window")[0].style.borderColor = "#FFFFFF"
+
+$(".container")[0].style.border = ".2em solid #ffffff"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/96iau7.png";
+
+document.body.background = "https://files.catbox.moe/ore50y.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#212121!important;}</style>";
+
+corrr = `
+  <h2 style="
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9),
+                 0 0 30px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    text-align: center;
+  ">
+    𝔗𝔥𝔢 𝔗𝔢𝔪𝔭𝔢𝔰𝔱.
+  </h2>
+`;
+
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://i.postimg.cc/yxsz3tbc/image-(2).png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#000000", "main_color": "#2c2e2d", "secondary_color": "#000000", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://mangolith.com/ProjectPics/WfileReUp/dPJjzYa.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original mod concept partially inspired by u/Skalda11.", "Soundtrack code provided by Burrito2045.", "Banner made by Metheguy.", "Theme inspired by 2004 Eyes Wide Open & 2008 Vice.", "Various codes provided by DecStarG & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+$("#inner_window_1 h3").css("text-align", "center").text("Do you have what it takes to win a Third Term?");
+
+document.getElementById('game_start').innerHTML = '<b>Click Here To Resume Your Presidency.</b>';
+
+    e.SelectText = "Please select your re-election campaign:"
+    e.CandidText = "Please select your figurehead:"
+    e.VpText = "Please select your puppeteer:"
+
+e.HomeStateText = "Role:";
+
+const customStyling = document.createElement("style");
+customStyling.innerHTML = `#map_container {
+    background-image: url("https://files.catbox.moe/5fiat4.png");
+    background-size: cover;
+}`;
+customStyling.id=`map_image`
+document.head.appendChild(customStyling);
+
+HistHexcolour=["#6e2020","#203a6e","#206e21","#24f206e"];
+    HistName=[" George W. Bush"," John Edwards"," Cynthia McKinney"," Chuck Baldwin/Others"];
+    HistEV=[444,86,8,0];
+    HistPV=["63,254,681","49,551,539","7,830,366","2,936,387"];
+    HistPVP=["51.7%","40.5%","6.4%","2.4%"];
+
+const styleFix = document.createElement("style");
+styleFix.id = "descriptionLayoutFix";
+styleFix.innerHTML = `
+  #election_description_window {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 12px;
+    height: auto;
+    min-height: 250px;
+  }
+
+  #election_image img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    display: block;
+    border-radius: 4px;
+  }
+
+  #election_summary {
+    max-width: 580px;
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    display: block;
+    min-height: 200px;
+  }
+
+  #election_description_window > div {
+    min-width: 0;
+  }
+`;
+document.head.appendChild(styleFix);
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://jetsimon.com/public/crt.css"
+    >`
+    
+    document.body.classList.add("crt");
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+    }
+    </style>`
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    </style>`
+
+function ensureStylesheet(url, id) {
+	// if an id is provided and exists, bail out
+	if (id && document.getElementById(id)) return;
+	// if a link with same href already exists, bail out
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
+
+ensureStylesheet('https://unpkg.com/7.css', 'unpkg-7css');
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+
+RecReading = true
+
+// the music player
+class Song {
+    constructor(title, artist, genre, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.genre = genre;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist
+window.Song = Song
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+window.changePlaylist = changePlaylist
+
+//  function to update the UI
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+    uiElements.genre.textContent = song.genre;
+}
+
+// function to play a song
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+    document.getElementById("disk").classList.remove("paused");
+}
+
+function setupMusicPlayer() {
+    const songData = [
+        { title: "Let's Have A War", artist: "A Perfect Circle", genre: "Alternative Rock", cover: "https://upload.wikimedia.org/wikipedia/en/b/b3/A_Perfect_Circle_-_eMOTIVe.jpg", audio: "https://files.catbox.moe/ng54wc.mp3" },
+        { title: "Holiday", artist: "Green Day", genre: "Punk", cover: "https://upload.wikimedia.org/wikipedia/en/8/8a/Green_Day_-_Holiday_cover.jpg", audio: "https://files.catbox.moe/jcco99.mp3" },
+        { title: "March Of The Dogs", artist: "Sum 41", genre: "Punk", cover: "https://upload.wikimedia.org/wikipedia/en/f/f5/SUM_41_UNDERCLASS_HERO.jpg?20110411184324", audio: "https://file.garden/Zrv1pPC1HzBK0svl/March%20Of%20The%20Dogs.mp3" },
+        { title: "Bu$hleaguer", artist: "Pearl Jam", genre: "Grunge", cover: "https://upload.wikimedia.org/wikipedia/en/5/5b/PearlJam-RiotAct.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Bu%24hleaguer%204.mp3" },
+        { title: "George W. Told The Nation", artist: "Tom Paxton", genre: "Folk", cover: "https://m.media-amazon.com/images/I/51+aPFZb4UL._UX420_FMwebp_QL85_.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/George%20W.%20Told%20the%20Nation.mp3" },
+        { title: "Boom!", artist: "System Of A Down", genre: "Nu Metal", cover: "https://upload.wikimedia.org/wikipedia/commons/4/45/StealThisAlbum.png", audio: "https://files.catbox.moe/q7w2g0.mp3" },
+        { title: "Mr. President", artist: "LL Cool J, Wyclef Jean", genre: "Rap", cover: "https://upload.wikimedia.org/wikipedia/en/d/d3/Exit13.JPG", audio: "https://file.garden/Zrv1pPC1HzBK0svl/Mr.%20President_LLCoolJ.mp3" },
+        { title: "B.O.B. (Bombs Over Baghdad)", artist: "OutKast", genre: "Hip Hop", cover: "https://upload.wikimedia.org/wikipedia/en/f/f6/OutkastBombs_Over_Baghdad.jpg", audio: "https://file.garden/Zrv1pPC1HzBK0svl/B.O.B.%20(Bombs%20Over%20Baghdad)%204.mp3" },
+    ];
+
+    playlist = new Playlist();
+    songData.forEach(s => playlist.addSong(new Song(s.title, s.artist, s.genre, s.cover, s.audio)));
+
+    function addAndPlaySong(song) {
+        const audio = document.getElementById("audio");
+        const uiElements = {
+            cover: document.getElementById("cover"),
+            title: document.getElementById("title"),
+            artist: document.getElementById("artist"),
+            genre: document.getElementById("genre"),
+            playPauseButton: document.getElementById("playPauseButton")
+        };
+
+        playlist.addSong(song);
+        playlist.currentSongIndex = playlist.songs.length - 1;
+
+        playSong(audio, uiElements);
+    }
+    window.addAndPlaySong = addAndPlaySong;
+
+    // build the player structure
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  playerContainer.innerHTML = `
+  <div id="album-area">
+    <div class="spinning-wrapper">
+      <img id="disk" src="https://i.imgur.com/0WjBkrN.png" alt="Disk">
+      <img id="cover" />
+    </div>
+  </div>
+  <div id="rightPanel">
+    <div id="info-container">
+      <div id="song-info">
+        <h3 id="title"></h3>
+        <p id="artist"></p>
+        <p id="genre"></p>
+      </div>
+    </div>
+    <div id="controls-container">
+      <div id="progress-bar-container">
+        <div id="progress"></div>
+      </div>
+      <div id="bottom-controls">
+        <div id="controls">
+          <img id="prevButton" src="https://i.imgur.com/tbB2NMq.png" alt="Previous">
+          <img id="playPauseButton" src="https://i.imgur.com/gZME5QC.png" alt="Play/Pause">
+          <img id="nextButton" src="https://i.imgur.com/e69GXWV.png" alt="Next">
+        </div>
+        <div id="volume-container">
+          <img src="https://i.imgur.com/fvct8dN.png" alt="Volume">
+          <input type="range" id="volumeSlider" min="0" max="9" step="1" value="2">
+        </div>
+      </div>
+    </div>
+  </div>
+`;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    // cache all DOM elements
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // setup event listeners
+    uiElements.playPauseButton.addEventListener("click", () => {
+        const disk = document.getElementById("disk");
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+            disk.classList.remove("paused");
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://i.imgur.com/gZME5QC.png";
+            disk.classList.add("paused");
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+
+    // initial load
+    const initialSong = playlist.getCurrentSong();
+    updateUI(initialSong, uiElements);
+    audio.src = initialSong.audioLink;
+
+    audio.play().then(() => {
+        uiElements.playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png";
+        document.getElementById("disk").classList.remove("paused");
+    }).catch(error => {
+        uiElements.playPauseButton.src = "https://i.imgur.com/gZME5QC.png";
+        document.getElementById("disk").classList.add("paused");
+        console.log("Audio autoplay was prevented. User must interact with the page first.");
+    });
+}
+
+const musicPlayer = `
+@keyframes spinDisk {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinning-wrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 12px 20px;
+  height: 200px;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+  border-radius: 10px;
+  border: 2px solid #444;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.7), 0 0 15px rgba(255,255,255,0.1);
+  color: #1a1a1a;
+  overflow: hidden;
+  position: relative;
+}
+
+#album-area {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  z-index: 0;
+}
+
+#disk {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #222 40%, #555 70%, #999 90%);
+  box-shadow: inset 0 0 12px rgba(255,255,255,0.3), 0 0 12px rgba(255,255,255,0.4);
+  animation: spinDisk 6s linear infinite;
+  z-index: 0;
+  left: 120px;
+  top: 20px;
+  opacity: 0.85;
+}
+
+/* NEW: stops spinning when paused */
+#disk.paused {
+  animation-play-state: paused;
+}
+
+#cover {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 6px;
+  object-fit: contain;
+  z-index: 2;
+  box-shadow: 0 0 8px rgba(255,255,255,0.2);
+}
+
+#rightPanel {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+  position: relative;
+  z-index: 3;
+}
+
+#song-info {
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px rgba(255,255,255,0.3);
+}
+
+#song-info #title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 3px 0;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#song-info #artist, #song-info #genre {
+  font-size: 1em;
+  margin: 0;
+  color: #dddddd;
+}
+
+#controls-container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255,255,255,0.05);
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 8px rgba(255,255,255,0.15);
+}
+
+#bottom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+#controls img {
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s, transform 0.2s;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.4));
+}
+
+#controls img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#prevButton, #nextButton {
+  height: 36px;
+}
+
+#playPauseButton {
+  height: 42px;
+}
+
+#progress-bar-container {
+  width: 100%;
+  height: 6px;
+  background-color: #1a1a1a;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  box-shadow: inset 0 0 5px rgba(255,255,255,0.2);
+}
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #bbbbbb, #ffffff);
+  border-radius: 3px;
+}
+
+#volume-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#volumeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 4px;
+  outline: none;
+  border-radius: 2px;
+  background: linear-gradient(to right, #001, #001);
+}
+
+#volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px rgba(255,255,255,0.6);
+  cursor: pointer;
+}
+
+#volumeSlider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px rgba(255,255,255,0.6);
+  cursor: pointer;
+}
+
+.campaign_trail_start_emphasis {
+  background-color: #f8f8f8;
+}
+#final_results_description h3 {
+			color: white;
+		}
+		#overall_details_container h3 {
+			color: white;
+		}
+		#overall_election_details h4 {
+			color: white;
+		}
+		#main_content_area_reading p {
+			color: white;
+		}
+		#main_content_area_reading h3.results_tab_header {
+			color: white;
+		}
+		.inner_window_w_desc h3 {
+			color: white;
+		}
+		.overlay_window h3 {
+			color: white;
+				}
+p#credits {
+		color: white;
+	}
+`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+campaignTrail_temp.achievements = {
+    // Achievements
+    "Alexander's Army" : {
+    "image" : "https://files.catbox.moe/pplxes.jpeg",
+    "description" : "Conquer Iran.",
+    "cannotBeCheated" : true
+    },
+    "They Fought The Law" : {
+    "image" : "https://files.catbox.moe/lkwtyy.webp",
+    "description" : "Capture the devil.",
+    "cannotBeCheated" : true
+    },
+    "Cash Dollars" : {
+    "image" : "https://files.catbox.moe/y78pex.jpg",
+    "description" : "Respond well to Hurricane Katrina.",
+    "cannotBeCheated" : true
+    },
+    "Loved By The People" : {
+    "image" : "https://files.catbox.moe/vrnif8.jpg",
+    "description" : "Win a third term while ensuring the economy goes to crap.",
+    "cannotBeCheated" : true
+    },
+    "Triumph Of The Swill" : {
+    "image" : "https://files.catbox.moe/uuh0oo.jpg",
+    "description" : "Strengthen your majority in the midterms.",
+    "cannotBeCheated" : true
+    },
+    "Barbara Ann" : {
+    "image" : "https://files.catbox.moe/umi0s1.jpg",
+    "description" : "Turn a country into ash.",
+    "cannotBeCheated" : true
+    },
+    "With One Voice" : {
+    "image" : "https://files.catbox.moe/ri94x2.avif",
+    "description" : "Win the primary without being challenged.",
+    "cannotBeCheated" : true
+    },
+    "The Whole World's Watching" : {
+    "image" : "https://files.catbox.moe/br3vpg.jpg",
+    "description" : "Go a little too far.",
+    "cannotBeCheated" : true
+    },
+    "Over There" : {
+    "image" : "https://files.catbox.moe/clkd80.jpg",
+    "description" : "Start a fourth war.",
+    "cannotBeCheated" : true
+    },
+    "Idiot Killed The Radio Star" : {
+    "image" : "https://files.catbox.moe/icsxbp.avif",
+    "description" : "Silence A Radio Host.",
+    "cannotBeCheated" : true
+    },
+    "Sent Back To Scranton" : {
+    "image" : "https://i.postimg.cc/y8kCRFvp/J2AO47FWSBHK7FESA4GIUGWJ4A.jpg",
+    "description" : "Face & defeat the Joe Biden/Tim Kaine ticket.",
+    "cannotBeCheated" : true
+    },
+    "Death Of A DINOsaur" : {
+    "image" : "https://files.catbox.moe/u9z36o.jpg",
+    "description" : "Face & defeat the Joe Lieberman/Blanche Lincoln ticket.",
+    "cannotBeCheated" : true
+    },
+    "Court-Martialed" : {
+    "image" : "https://files.catbox.moe/pxktam.jpg",
+    "description" : "Face & defeat the Wesley Clark/Phil Bredesen ticket.",
+    "cannotBeCheated" : true
+    },
+    "We Came, We Saw, She Died" : {
+    "image" : "https://files.catbox.moe/6e8iuc.jpg",
+    "description" : "Face & defeat the Hillary Clinton/Mark Warner ticket.",
+    "cannotBeCheated" : true
+    },
+    "Weakness Through Peace" : {
+    "image" : "https://files.catbox.moe/70a90g.jpg",
+    "description" : "Face & defeat the Dennis Kucinich/Barbara Boxer ticket.",
+    "cannotBeCheated" : true
+    },
+    "Ice Box" : {
+    "image" : "https://files.catbox.moe/dl47l9.jpg",
+    "description" : "Face & defeat the Mike Gravel/John Lewis ticket.",
+    "cannotBeCheated" : true
+    },
+    "No Drama" : {
+    "image" : "https://files.catbox.moe/6agr08.webp",
+    "description" : "Face & defeat the Barack Obama/Brian Schweitzer ticket.",
+    "cannotBeCheated" : true
+    },
+    "No One's Revolution" : {
+    "image" : "https://files.catbox.moe/iwz8al.jpg",
+    "description" : "Face & defeat the Bernie Sanders/Russ Feingold ticket.",
+    "cannotBeCheated" : true
+    },
+    "Southern Hospitality" : {
+    "image" : "https://files.catbox.moe/4aw4wg.jpeg",
+    "description" : "Face & defeat the John Edwards/Eliot Spitzer ticket.",
+    "cannotBeCheated" : true
+    },
+    "Bankrupted" : {
+    "image" : "https://files.catbox.moe/tewaf9.jpg",
+    "description" : "Face & defeat the Donald Trump/Rod Blagojevich ticket.",
+    "cannotBeCheated" : true
+    },
+    "A Convenient Truth" : {
+    "image" : "https://files.catbox.moe/3huhjp.webp",
+    "description" : "Face & defeat the Al Gore/Barack Obama ticket.",
+    "cannotBeCheated" : true
+    },
+    "Roasted Peanuts" : {
+    "image" : "https://files.catbox.moe/i9nasy.jpg",
+    "description" : "Face & defeat the Jimmy Carter/Tom Vilsack ticket.",
+    "cannotBeCheated" : true
+    },
+    "A Dynasty Destroyed" : {
+    "image" : "https://files.catbox.moe/1oq0os.jpg",
+    "description" : "Face & defeat the Bill Clinton/Robert Reich ticket.",
+    "cannotBeCheated" : true
+    },
+    "Red-Yellow Scare" : {
+    "image" : "https://i.postimg.cc/SQ36q4Hs/RDT-20260202-2335078087610727777842817.jpg",
+    "description" : "Halt two Revolutions.",
+    "cannotBeCheated" : true
+    },
+    "Pull My Strings" : {
+    "image" : "https://files.catbox.moe/sm90bm.jpg",
+    "description" : "Win over 450 electoral votes.",     
+    "cannotBeCheated" : true
+    },
+    "Master Of Puppets" : {
+    "image" : "https://files.catbox.moe/xbysz5.jpg",
+    "description" : "Win as the Vice.",
+    "cannotBeCheated" : true
+    },
+    "EVOL" : {
+    "image" : "https://files.catbox.moe/0yi5jt.jpg",
+    "description" : "Lose the nomination to an old man.",
+    "cannotBeCheated" : true
+    },
+    "Cut Up" : {
+    "image" : "https://files.catbox.moe/vzvov7.jpg",
+    "description" : "Kill the world for the sake of winning.",
+    "cannotBeCheated" : true
+   }
+}
+
+//#endcode
