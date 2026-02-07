@@ -403,7 +403,7 @@ styleFix.innerHTML = `
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 12px;
+    gap: 1px;
     height: auto;
     min-height: 250px;
   }
