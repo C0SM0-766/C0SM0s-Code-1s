@@ -23,7 +23,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 - Creation Date: February 4th, 2024
 
 **1972 Mao**
-- Creation Days: April 18th, 2024
+- Creation Date: April 18th, 2024
 
 **Biden 2008**
 - Creation Date: April 19th, 2024
