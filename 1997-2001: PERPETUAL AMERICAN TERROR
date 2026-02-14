@@ -1,0 +1,838 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p><b>It Happened Here.</b> Pat Buchanan, the political commentator and known Hitler admirer, has stolen the American presidency from philanderer-turned-president Bill Clinton. What has caused America to turn the clock to a time of mass injustice and oppression? Buchanan's fearmongering? Clinton's scandals? His failure to enact any sort of agenda since Führer Gingrich won in '94? Whatever it is, the people can't have chosen this bigot over Bubba without some sort of supernatural force guiding them.<br><br>With a shit-eating grin and hatred towards anything that screams equality, Buchanan knows he's in for a wild ride. In a time of <b>Perpetual American Terror</b>, President-elect Buchanan only knows one thing: Pride in hatred.</p>",
+            "image_url": "https://files.catbox.moe/ok5k36.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://files.catbox.moe/nf8hyn.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1997-2000: PERPETUAL AMERICAN TERROR"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Patrick J.",
+            "last_name": "Buchanan",
+            "election": 9,
+            "party": "Paleoconservatism/Fascism",
+            "state": "Main Villain, American Mussolini",
+            "priority": 1,
+            "description": "<p>Welcome to the new America. In the same fate as Andrew Jackson, the rage of Southern racists has catapulted a genocide-supporting demogogic populist to the office of President. On a campaign based purely on the hatred of President Clinton, Patrick Joseph Buchanan has no friends and a lot of enemies. Ever since the days of Reagan & Bush, the ideology known as conservatism has morphed into one identical to fascism. All thanks to him.<br><br>As a child of the New Right, Buchanan, much like the president bearing the same surname, will likely go down as an ineffective legislator, a vile being, and perhaps the destruction of all progress past the 1960s. But much akin to men of the 1960s, the legacy of Pat will live longer than the man himself. In the name of racism, this man may succeed is morphing this country into a hateful mess of paranoia, misinformation and <b>hate.</b></p>",
+            "color_hex": "#5e211d",
+            "secondary_color_hex": "#5e211d",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/axWsxYL.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Radical Left",
+            "election": 9,
+            "party": "Liberalism",
+            "state": "Party of Heroes",
+            "priority": 2,
+            "description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
+            "color_hex": "#1d365e",
+            "secondary_color_hex": "#1d365e",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Idiotic Reformists",
+            "election": 9,
+            "party": "Synthetic Centrism",
+            "state": "Innocent Side Characters",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#3f1d5e",
+            "secondary_color_hex": "#3f1d5e",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Commie Hippies",
+            "election": 9,
+            "party": "Progressivism",
+            "state": "Dissident Side Characters",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#1e5e1d",
+            "secondary_color_hex": "#1e5e1d",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Trent",
+            "last_name": "Lott",
+            "election": 9,
+            "party": "Dixiecrat",
+            "state": "Loyal Henchman, American Gentile",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/PfgKfcd5/aiease-1770849162426.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Jefferson Davis reincarnate; Trent Lott's views belongs in the past. Minorities, gays, and political dissidents shed tears as ignorant whites raise a Confederate to another political office. The Mississippian has trudged alongside his boss—praising him, licking the jackboot, and using his Dixie charm to elect him—ever since he was promised a chance to allow the ideas of Duke, Simmons, & Forrest to persist not only down South but across the country. But so far, it seems reality has sucker punched the Dixie boy: he's not doing much, if at all.<br><br>A man more fit for running Cracker Barrel, Lott's neo-Confederate beliefs have been surprisingly halted by his boss—preferring Hitler over Lee. If he doesn't get a chance to spark the reactionary agenda he had fought for, he may trade the Vice Presidency with returning back to the senate.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Democrat",
+            "election": 9,
+            "party": "Liberalism",
+            "state": "Model Hero",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Reformer",
+            "election": 9,
+            "party": "Synthetic Centrism",
+            "state": "Potential Side Character",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Mr.",
+            "last_name": "Green",
+            "election": 9,
+            "party": "Progressivism",
+            "state": "Potential Dissident Side Character",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 32,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "1997-2000: PERPETUAL AMERICAN TERROR"
+    }
+]
+
+jet_data = {
+    "headerColor": "#106256",
+    "windowColor": "#6da39b",
+    "containerColor": "#132f2b",
+    "innerWindowColor": "#6da39b",
+    "bannerImageUrl": "https://files.catbox.moe/tm6qb4.jpg",
+    "backgroundImageUrl": "https://external-preview.redd.it/e7L-hY0gBzi7A6HWknGZtXuOL29OzKDxZqWfiXHjh2o.png?auto=webp&s=fc2e705ccee6546a50ac2f06df3adb05248ff710",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "𝗣𝗘𝗥𝗣𝗘𝗧𝗨𝗔𝗟 𝗔𝗠𝗘𝗥𝗜𝗖𝗔𝗡 𝗧𝗘𝗥𝗥𝗢𝗥"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>𝗣𝗘𝗥𝗣𝗘𝗧𝗨𝗔𝗟 𝗔𝗠𝗘𝗥𝗜𝗖𝗔𝗡 𝗧𝗘𝗥𝗥𝗢𝗥</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#106256";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6da39b";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#132f2b";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/e4l8m1.png)"
+
+$("#game_window")[0].style.borderColor = "#6da39b"
+
+$(".container")[0].style.border = ".2em solid #106256"
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+document.getElementById("header").src = "https://files.catbox.moe/tm6qb4.jpg";
+
+document.body.background = "https://external-preview.redd.it/e7L-hY0gBzi7A6HWknGZtXuOL29OzKDxZqWfiXHjh2o.png?auto=webp&s=fc2e705ccee6546a50ac2f06df3adb05248ff710";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#6da39b!important;}</style>";
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#106256", "header_image_url": "https://i.postimg.cc/MTv2w4qB/image-(2).png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#6da39b", "main_color": "#132f2b", "secondary_color": "#6da39b", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/2amc3y.png");
+
+e.PartyText = "Ideology:";
+
+e.HomeStateText = "Role:";
+
+    e.SelectText = "Select your election:"
+    e.CandidText = "Select your tyrant-elect:"
+    e.VpText = "Select your right hand man:"
+
+HistHexcolour=["#1d365e","#5e211d","#3f1d5e","#1e5e1d"];
+    HistName=[" Russ Feingold"," Pat Buchanan"," Arlen Specter"," Ralph Nader/Others"];
+    HistEV=[483,52,3,0];
+    HistPV=["54,916,057","40,264,748","8,959,433","1,370,266"];
+    HistPVP=["52.1%","38.2%","8.5%","1.3%"];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Original mod concept and starting screen written by 4M3URY5M.", "Soundtrack code provided by Houseyhouse.", "Banner provided by Metheguy.", "Various codes provided by Jet, DecStarG, & Mangolith."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+$("#inner_window_1 h3").css("text-align", "center").text("This is Perpetual American Terror.");
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>An in-depth exploration of the Pat Buchanan administration.</li><li>You will witness the slow decline of American society from the tail-end of the 20th century to the beginning of the new millennium.</li><li>You will see, firsthand, the dismantling of democracy as carried out by Buchanan and his ilk.</li><li>You will partake in the destruction of the Constitution and the end of history as we know it.</li><li>You will take control of an uncontrollable nation and claw your way to victory as the American people look on with dread.</li><li>Warning: this scenario is about a truly evil man, and as such contains reference to racism, sexism, homophobia, and other potentially offensive material. Proceed with caution. We do not condone or endorse any of the views featured in this scenario.</li><li>Are you ready?</li>`;
+
+document.getElementById('game_start').innerHTML = '<b>I‛m Ready.</b>';
+
+    // Select the node that will be observed for mutations
+    const windowsAdvisorTargetNode = document.getElementById("game_window");
+    
+    // Options for the observer (which mutations to observe)
+    const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+    
+    // Callback function to execute when mutations are observed
+    const callback = (mutationList, observer) => {
+        visitWindow = document.getElementsByClassName("overlay_window")[0];
+    
+        if(visitWindow == null || visitWindow.classList.contains("done")) {
+            return;
+        }
+        visitWindow.classList.add("done");
+        visitWindow.classList.add("window");
+        let titleBar = visitWindow.querySelector("h3");
+        titleBar.classList.add("title-bar");
+        titleBar.classList.add("title-bar-text")
+        titleBar.style.paddingLeft = "3px";
+    };
+    
+    // Create an observer instance linked to the callback function
+    const windowsAdvisorObserver = new MutationObserver(callback);
+    
+    // Start observing the target node for configured mutations
+    windowsAdvisorObserver.observe(windowsAdvisorTargetNode, windowsAdvisorConfig);
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://jetsimon.com/public/crt.css"
+    >`
+    
+    document.body.classList.add("crt");
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+    }
+    </style>`
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    </style>`
+
+let crtStyle = document.createElement('style');
+document.head.appendChild(crtStyle);
+
+let crtOn = true;
+var setCRTLines = (enabled) => {
+    crtStyle.innerText = enabled ? "" : ".crt::before {background: none;}";
+}
+footer = $(".footer")[0]
+var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
+button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
+button.innerHTML = "Toggle CRT Lines"
+footer.insertBefore(button, footer.firstChild);
+button.addEventListener("click", () => {crtOn = !crtOn; setCRTLines(crtOn)});
+
+function ensureStylesheet(url, id) {
+	if (id && document.getElementById(id)) {
+        if (id === 'unpkg-7css') {
+            const link = document.getElementById(id);
+if (link) link.remove();
+            return; 
+        }
+        return;
+    }
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
+
+
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+// --- Song and Playlist Classes ---
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+
+// --- UI Update and Playback Functions ---
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+}
+
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png";
+}
+
+// --- Build Music Player UI ---
+function setupMusicPlayer() {
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+    playerContainer.innerHTML = `
+        <img id="cover" />
+        <div id="rightPanel">
+            <div id="info-container">
+                <div id="song-info">
+                    <div id="title-row">
+                        <h3 id="title"></h3>
+                    </div>
+                    <p id="artist"></p>
+                </div>
+                <div id="progress-bar-container">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div id="controls-container">
+                
+                <div id="bottom-controls">
+                    <div id="controls">
+                        <img id="prevButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png" alt="Previous">
+                        <img id="playPauseButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png" alt="Play/Pause">
+                        <img id="nextButton" src="https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png" alt="Next">
+                        <div id="volume-container">
+                            <img src="https://images2.imgbox.com/b7/f0/IDsHJ1wd_o.png" alt="Volume">
+                            <input type="range" id="volumeSlider" min="0" max="9" step="1" value="2">
+                    </div>
+                </div>
+        </div>
+    `;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // --- Controls ---
+    uiElements.playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png";
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://file.garden/ZP0tRnn29AiCnZ0g/transparent.png";
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+}
+
+function setupPlaylists() {
+    const playlist1 = new Playlist();
+    [
+        { title: "Black Hole Sun", artist: "Soundgarden", cover: "https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg", audio: "https://files.catbox.moe/swan8n.mp3" },    
+        { title: "American Jesus", artist: "Bad Religion", cover: "https://upload.wikimedia.org/wikipedia/en/c/c3/BadReligionRecipeForHate.jpg", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/American%20Jesus.mp3" },    
+        { title: "Ifwhiteamericatoldthetruthforonedayitsworldwouldfallapart", artist: "Manic Street Preachers", cover: "https://i.scdn.co/image/ab67616d0000b2733f8f060e2f4ad634a94ae1df", audio: "https://file.garden/Z7qfmQZIZjO_xV5N/whiteamerica.mp3" },    
+        { title: "Americana", artist: "The Offspring", cover: "https://upload.wikimedia.org/wikipedia/en/f/f5/TheOffspringAmericanaalbumcover.jpg", audio: "https://files.catbox.moe/jrsqnu.mp3" },    
+        { title: "Youth Against Fascism", artist: "Sonic Youth", cover: "https://upload.wikimedia.org/wikipedia/en/c/cb/Sonicyouthdirty.png", audio: "https://files.catbox.moe/wf6ttu.mp3" },    
+        { title: "Minority", artist: "Green Day", cover: "https://upload.wikimedia.org/wikipedia/en/5/5e/Green_Day_-_Warning_cover.jpg", audio: "https://files.catbox.moe/epec4p.mp3" },    
+        { title: "Calm Like A Bomb", artist: "Rage Against The Machine", cover: "https://upload.wikimedia.org/wikipedia/en/5/51/RAtM-BattleofLosAngeles.jpeg", audio: "https://files.catbox.moe/gy0bla.mp3" },    
+        { title: "The Day The Nazi Died", artist: "Chumbawamba", cover: "https://files.catbox.moe/refkbo.jpg", audio: "https://files.catbox.moe/a4ijy0.mp3" },    
+        { title: "Angel", artist: "Massive Attack", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Angelmassiveattack.jpg", audio: "https://files.catbox.moe/8mse5e.mp3" }    
+    ].forEach(s => playlist1.addSong(new Song(s.title, s.artist, s.cover, s.audio)));
+    return { playlist1};
+}
+
+// --- CSS ---
+const musicPlayer = `
+#player {
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 40px;
+  height: 332px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+  background-image: url(https://images2.imgbox.com/08/02/ObIfYpaI_o.png);
+  color: white;
+  overflow: hidden;
+}
+
+#cover { 
+    width: 293px; 
+    height: 293px; 
+    margin-left: -20px; 
+    margin-right: 90px; 
+    margin-top: -4px; 
+    flex-shrink: 0; 
+    }
+
+#rightPanel { 
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 1; 
+    min-width: 0; 
+    }
+
+#title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#song-info #title { 
+    font-size: 2em; 
+    font-weight: 600; 
+    margin: 0; 
+    margin-right: 200px; 
+    color: #19191a; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    }
+
+#song-info #artist { 
+    font-size: 1.2em; 
+    margin: 0; 
+    color: #19191a; 
+    margin-right: 200px; 
+    margin-bottom: -29px;
+    }
+
+#controls-container {
+  display: flex; flex-direction: column; justify-content: center;
+   margin-top: 40px; margin-left: 70px;
+  padding: px; width: 67%; border-radius: 4px;
+}
+
+#controls { 
+    display: flex; 
+    align-items: center; 
+    gap: 53px; 
+    margin-bottom: -32px;
+    }
+
+#controls img { 
+    cursor: pointer; 
+    opacity: 0.9; 
+    transition: 
+    opacity 0.2s; 
+    margin-bottom: -32px;
+    }
+
+#progress-bar-container { 
+    width: 70%; 
+    height: 7px; 
+    background: #333;
+    border: 2px inset #666;
+    cursor: pointer; 
+    margin-top: 35px;
+    position: relative;
+}
+
+#progress { 
+    height: 100%; 
+    width: 0%; 
+    background: linear-gradient(to bottom, #fff, #ccc);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#volume-container { 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    height: 12px;
+    margin-left: 60px; 
+    margin-bottom: 60px; 
+    }
+
+#volumeSlider {
+    -webkit-appearance: none;
+    width: 110px;
+    height: 8px;
+    background: #333;
+    border: 2px inset #666;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.8);
+    margin-top: 35px;
+}
+
+#volumeSlider:hover {
+    opacity: 0.9;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 20px;
+    background: #ddd;
+    border: 2px outset #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+#volumeSlider::-webkit-slider-thumb:active {
+    border-style: inset;
+    background: #bbb;
+}
+`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+// --- Initialize ---
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+const playlists = setupPlaylists();
+changePlaylist(playlists.playlist1);
+
+//#endcode
