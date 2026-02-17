@@ -163,6 +163,9 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 **1997-2000: PERPETUAL AMERICAN TERROR**
 - Creation Date: February 13th, 2026
 
+**1963-1964: VOX POPULI**
+- Creation Date: February 17th, 2026
+
 -------
 
 And now? I'm creating/editing even more Code 1s...
