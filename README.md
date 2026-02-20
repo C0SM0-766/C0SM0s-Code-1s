@@ -168,4 +168,4 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 
 -------
 
-And now? I'm creating/editing even more Code 1s...
+Holy shit, I've made so much of these... but anyways, I'm still making them even after 2 years! More to come soon.
