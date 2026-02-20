@@ -1,4 +1,4 @@
-**C0SM0's Code Ones**
+<h1>**C0SM0's Code Ones**</h1>
 
 Oh! Hey there! Didn't expect you to lurk around my Github repository, but I kinda should've expected that when I had put my Github account on Discord.
 
