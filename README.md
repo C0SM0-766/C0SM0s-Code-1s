@@ -2,11 +2,14 @@
 
 ![Banner 1](https://raw.githubusercontent.com/C0SM0-766/C0SM0s-Code-1s/refs/heads/main/Banner%201.jpg)
 
-Oh! Hey there! Didn't expect you to lurk around my Github repository, but I kinda should've expected that when I had put my Github account on Discord.
+> "Alright that's it, time to turn gay and be a femboy on OnlyFans!"
+> ~ William Shakespeare
+
+Oh! Hey there! Didn't expect you to lurk around my Github repository, but I kinda should've expected that when I had linked my Github account on Discord.
 
 These are just a bunch of code 1s I created over my time in the NCT code 1 maker (later switched to Jet's Code 1 tool). I have no intention of making any of these into full-on mods, nor will I attempt to do such a feat. I lack the time, skill, knowledge, & even motivation to pursue a full mod.
 
-I'm disheartened by the amount of amazing mods that were unfortunately canceled—Abyss '76, 2024-Way, 1948 Identity War Redux, etc. There's also many interesting mod mockups that were made that will most likely never become into fully developed mods. Examples include 2024 Election Theory, 2021 NYC, The Hazbin Trail, & 1976 Byrd.
+I'm disheartened by the amount of amazing mods that were unfortunately canceled for numerous reasons—Abyss '76, 2024-Way, 1948 Identity War Redux, etc. There's also many interesting mod mockups that were made that will most likely never become into fully developed mods. Examples include 2024 Election Theory, 2021 NYC, The Hazbin Trail, & 1976 Byrd.
 
 I found an excellent way to cope with this: **make code 1s for these unfinished mods & mod mockups!**
 
@@ -170,7 +173,7 @@ Hope y'all enjoy these Code 1s. This repo can illustrate how much I've grown as 
 
 -------
 
-Holy shit, I've made so much of these... but anyways, I'm still making them even after 2 years! More to come soon.
+~~Holy shit, I've made so much of these.~~ But anyways, I'm still making them even after 2 years! More to come soon.
 
 ![Banner 2](https://raw.githubusercontent.com/C0SM0-766/C0SM0s-Code-1s/refs/heads/main/Banner2.jpeg)
 
