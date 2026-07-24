@@ -175,7 +175,7 @@ Hope y'all enjoy these mockups. This repo can illustrate how much I've grown as 
 - Creation Date: February 7th, 2026
 
 **1997-2000: PERPETUAL AMERICAN TERROR**
-- Creation Date: February 13th, 2026
+- Creation Date: February 13th, 2026 *(Updated on July 24th, 2026)*
 
 **1963-1964: VOX POPULI**
 - Creation Date: February 17th, 2026 *(Updated on March 22nd, 2026)*
