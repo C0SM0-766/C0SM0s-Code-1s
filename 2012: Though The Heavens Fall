@@ -1,0 +1,1536 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<p>A conspiracy theory has been proven true: Barack Obama, 44th president of the United States, <b>hasn't</b> been born in the States, making him a constitutionally forbidden candidate. After the bombshell report, he has resigned in 2011 in disgrace, and his hopes and dreams for change in the nation went along with it. Now-president Joe Biden is tasked with salvaging whatever's left of the administration and mend the public image of the Democrats.<br><br>Meanwhile, the Republicans, more radicalized seeing a non-white foreigner take office, have officially sacrificed their party to the hard right Tea Party movement. Sheriff Joe Arpaio takes over the party nomination from the moderates and prepares to arrest the \"illegal foreign-owned administration\".</p>",
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/ezgif-255056d7385c8e45.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.postimg.cc/sXby6P33/Screenshot-20260724-220739-Chrome.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2012: Though The Heavens Fall",
+            "recommended_reading_enabled": false,
+            "site_description": "<p><b>Though The Heavens Fall.</b><br>A conspiracy theory has been proven true: Barack Obama, 44th president of the United States, <b>hasn't</b> been born in the States, making him a constitutionally forbidden candidate. After the bombshell report, he has resigned in 2011 in disgrace, and his hopes and dreams for change in the nation went along with it. Now-president Joe Biden is tasked with salvaging whatever's left of the administration and mend the public image of the Democrats.<br><br>Meanwhile, the Republicans, more radicalized seeing a non-white foreigner take office, have officially sacrificed their party to the hard right Tea Party movement. Sheriff Joe Arpaio takes over the party nomination from the moderates and prepares to arrest the \"illegal foreign-owned administration\".</p>"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 3,
+        "year": 2012,
+        "is_premium": 0,
+        "display_year": "2012: Though The Heavens Fall"
+    }
+];
+
+campaignTrail_temp.credits = "C0SM0";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Biden",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Delaware",
+            "priority": 1,
+            "description": "<p>The dreams of change now lie on Joe Biden, a 70-year old white man who was cozy with Klansmen and warhawks for most of his public career. Biden was never an agent of hope, but rather an appeal to normalcy to appease white moderates suspicious of a non-white man taking over America. Post-Obama withdrawal, nobody had high hopes for the elderly statesman. His decades in public service seem likely to end off on a low note, or rather, in a spectacular disaster this November. The battle couldn't have been more uphill.<br><br>Remaining a lame-duck president with a Republican congress, Biden's decision to run again seems to be a mere foolish decision the old kook has done. Yet, if the GOP lets their paranoia consume them and nominate someone purely extreme & unelectable, perhaps not all hope is lost, even when their messiah left the presidency.</p>",
+            "color_hex": "#0c3578",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-143960138-2048x2048.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your spirited defense, Mitt Romney has won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, Romney will become America's first Mormon president.</p><p>On the political front, it appears that Romney will make a push for more tax cuts to revive the economy. He will also try to repeal your health care law. If your defeat was narrow enough, you may be able to attempt a comeback in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Arpaio",
+            "election": 3,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 2,
+            "description": "<p>The hammer of justice smited the \"first\" Black president, and the opposition party wants to replicate the spectacle it had done. The Republicans turn to sheriff Joe for that answer. With little experience, Arpaio relies on his image of a harbinger of order—the hammer of justice that will smite criminals and illegal presidents down to hell. It's with this public perception that catapulted him to the nomination. What the GOP failed to consider is how extreme the sheriff is to the American public.<br><br>Coming out of far-right field, his nativist sentiment and outright cruel actions as chief policeman—torture, negligence of human rights and constitutional order, & failure to investigate crimes—will scare potential voters away, seeing him as a few inches to the right of Mussolini. Yet, if anti-Democrat sentiment remains high and his controversies are somehow quelled, perhaps order can be restored in this nation.</p>",
+            "color_hex": "#78100c",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/Arpaio.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your best efforts, Barack Obama has been reelected to a second term as President.</p><p>On the political front, it appears that Obamacare will survive and go into effect. While the economy has not recovered as strongly as Obama hoped and promised, he will now have four more years to leave a strong legacy to his Democratic successor. No doubt the Republicans will learn from your failure and come back stronger in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and pundits who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.8,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 36,
+        "fields": {
+            "first_name": "Gary",
+            "last_name": "Johnson",
+            "election": 3,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 3,
+            "description": "<p>here come dat gary.</p>",
+            "color_hex": "#78560c",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Gary_Johnson_%2825669967777%29_%28cropped%29.jpg/1280px-Gary_Johnson_%2825669967777%29_%28cropped%29.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0.1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 18,
+        "fields": {
+            "first_name": "Tammy",
+            "last_name": "Baldwin",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Wisconsin",
+            "priority": 3,
+            "description": "<p>While his Libertarian views make him non-competitive in 2012, Gary Johnson hopes to use the election as a springboard for his party and ideology. The success of Ron Paul in the Republican primaries suggests a potential market for Johnson's views, but he realistically will be fortunate to win more than 2% of the popular vote.</p>",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/XmZCrEe.png",
+            "electoral_victory_message": "<h3>It's a miracle! You have won the 2012 election.</h3> <p>Gary Johnson? Even the people who voted for you can't believe you won.</p> <p>You are the first third-party candidate to ever win the Presidency. Now go enact that Libertarian agenda!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>But what did you expect? Your main goal was to get the Libertarian agenda out there and hope for a miracle.  The miracle never came.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. However, this  was entirely irrelevant to your chances as a third-party candidate.</p> <p>Better luck next time.</p>",
+            "description_as_running_mate": "<i>Remember, there are two things that keep us oppressed: them and us. We are half of the equation.</i><br><p>Amongst the fallout of the Occupy Movement, progressive left-wing populism continues to reach further and further visibility & attention. After senator Bernie Sanders' narrowly-missed third-party candidacy, it seems that the movement could cost you this year's race. To get them back in the fold, Tammy Baldwin is recommended to be selected. Supporting single-payer Healthcare and openly gay, her nomination would rejuvenate progressive turnout and energize gays & left-out liberals.<br><br>Her homosexuality will likely be targeted among social conservatives. To add on, she was planning on challenging Wisconsin's junior senate seat this year, which if she's left off the ballot, may cost the seat for the party.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 19,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stein",
+            "election": 3,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "<p>Stein will most likely feature as a footnote in the 2012 election, though she could draw support from Obama if he veers too close to the political center.</p>",
+            "color_hex": "#0c780e",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "<h3>Wow! You have won the election.</h3><p>This has to rank as one of the biggest upsets in political history. Prepare to implement your radically progressive agenda in the United States of America!</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 27,
+        "fields": {
+            "first_name": "Newt",
+            "last_name": "Gingrich",
+            "election": 3,
+            "party": "Republican",
+            "state": "Georgia",
+            "priority": 5,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After an upset in the Republican nomination battle, Newt Gingrich heads into the general election with strong support from fiscal and social conservatives. Better known for his House leadership in the 1990s, he must find a way to regain popularity and relevance, and to convince American voters that he can address their economic concerns more effectively than Obama.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/newt-gingrich-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations</h3>",
+            "electoral_loss_message": "<h3>Better luck next time</h3>",
+            "no_electoral_majority_message": "<h3>Interesting</h3>",
+            "description_as_running_mate": "<p>After competing as rivals for the Republican nomination, a Rick Santorum and Newt Gingrich ticket would effectively act as a compromise between those camps and consolidate their support and campaign resources.</p><p>After both candidates spent months making the case that Romney was too moderate, their joining of forces in the general election leaves little doubt as to the tone they intend to strike.</p>",
+            "candidate_score": 0.12,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 29,
+        "fields": {
+            "first_name": "Rick",
+            "last_name": "Santorum",
+            "election": 3,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 6,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After an upset in the Republican nomination battle, Rick Santorum heads into the general election with staunch support from social conservatives. He also has several years of experience as a U.S. Senator.</p><p>Santorum's challenge will be the unite the business wing of the Republicans after defeating their preferred candidate, and to offer something to swing voters in the electorate at large.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/rick-santorum-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations!</h3>",
+            "electoral_loss_message": "<h3>oops</h3>",
+            "no_electoral_majority_message": "<h3>hmm</h3>",
+            "description_as_running_mate": "<p>After competing as rivals for the Republican nomination, a Rick Santorum and Newt Gingrich ticket would effectively act as a compromise between those camps and consolidate their support and campaign resources.</p><p>After both candidates spent months making the case that Romney was too moderate, their joining of forces in the general election leaves little doubt as to the tone they intend to strike.</p>",
+            "candidate_score": 0.08,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 30,
+        "fields": {
+            "first_name": "Claire",
+            "last_name": "McCaskill",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Missouri",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-157463391-2048x2048.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i>The White House has something in common with the rest of America, and that is disdain for Congress.</i><br><p>Tough, hard-hitting, and serious to the end; Claire McCaskill is the best choice if you wanna hold the battle lines against the Republican horde steady. Holding ground in a state turning increasingly unfavorable to Democrats leads her into the bipartisan, witty & aggressive senator today. She's the de facto attack dog for the president—defending his immigration & social policies against the aura of nativism & xenophobia–and the public has taken a liking to her.<br><br>However, after the Occupy movement garnering much support, her centrist background won't bode well with dissident leftists. Her selection will depress turnout or drive voters to the Green Party, alongside her various skeletons in her closet.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 31,
+        "fields": {
+            "first_name": "Bobby",
+            "last_name": "Jindal",
+            "election": 3,
+            "party": "Republican",
+            "state": "Louisiana",
+            "priority": 8,
+            "description": "<p>V.P.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-145977894-2048x2048.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i>We must stop being the stupid party.</i><br><p>A rising star within the party, Bobby Jindal gained national notoriety from butting heads with the current Biden administration—his Healthcare plan and squeaky-clean image as a non-white politician in stark contrast to Obama. His intellectual populist history in bypassing bureaucratic measures to assist people post-hurricane Katrina leads to him being regarded as a solid VP pick by your advisors. His image couldn't have been more perfect than now.<br><br>The major downsides with his selection is his inability to appeal to Christian religious groups—him being Hindu with an Indian background being the main factor—& managing to turn out minority voters in droves, with most still preferring Obama's dreams over Bobby's plans.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 32,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Toomey",
+            "election": 3,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 9,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/phototune.ai_1785470287.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i>There's going to be a wake-up call sooner or later.</i><br><p>Pat Toomey rode off the red wave of 2010 to clinch Arlen Specter's seat while winning with an image of an economic strongman conservative instead of a moderate Republican—a sign that the public is turning tides against all left turns. Since his political genesis, he has been focusing primarily on one thing: the promotion & enacting of right-wing economic policy. With his shock victory, it's clear the country is hungry for old-school Reaganomics again.<br><br>Toomey's selection would make it clear that you intend to broaden your appeal to moderates concerned about economic affairs, as his success is credited with hammering in economic dissatisfaction with the status quo. If his policies actually work for a desperate country... that's a story for another time.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 33,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Tancredo",
+            "election": 3,
+            "party": "Republican",
+            "state": "Colorado",
+            "priority": 10,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/gettyimages-161224586-2048x2048.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i>An America disarmed is an America in subjugation.</i><br><p>Tom Tancredo is the confident choice: the election's already won, so there's nothing to lose—look to a future administration. The Colorado congressman embodies the Paleoconservative & Constitutionalist faction of the Tea Party, and naturally has backed your presidential run. Despite splitting from the GOP in his CO Gubernatorial bid, his image is one of \"principle over politics\", at least according to your advisor team.<br><br>Tom shares the same flaws as you—depicted as too far-right & too focused on nativism over economic issues. His charisma, even compared to more lukewarm candidates, is seen as unprofessional & atrocious, as well as his performance in the 2008 Primaries being laughable at worst. It would take a Hail Mary for this to <i>not</i> end poorly.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 34,
+        "fields": {
+            "first_name": "Deval",
+            "last_name": "Patrick",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Massachusetts",
+            "priority": 11,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/Zrv1pPC1HzBK0svl/e0d15577-0172-411e-a1fb-ccec42113fe6.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<i>It's time for democrats to grow a backbone and stand up for what we believe.</i><br><p>Perhaps the main variable missing in the equation for your re-election lies in the past. Deval Patrick is black, charismatic, and staunchly liberal on many stances: the perfect politician to recapture Obama's coalition that raised him to the highest office. From the blue northeast, he spent his early career in the Clinton administration advancing civil rights and later becoming the second African-American to be a state's governor.<br><br>With Patrick on the ticket, you're tying yourself further to Obama's fallen image, for better or for worse. Furthermore, some voters may be racially motivated to vote against you, costing the ailing Democrats in the south and plains down ballot, potentially leading to a continuation of a lame-duck administration.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 37,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Pawlenty",
+            "election": 3,
+            "party": "Republican",
+            "state": "Minnesota",
+            "priority": 12,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/tim-pawlenty-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Tim Pawlenty served as the Governor of Minnesota for eight years and briefly sought the Republican nomination in 2011. He brings a reputation as a moderate and a strong manager, and could help burnish Romney's credentials in the upper Midwest.</p><p>However, if Romney wants to unite the conservative base of his party, Pawlenty may not be the best choice.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 38,
+        "fields": {
+            "first_name": "James P.",
+            "last_name": "Gray",
+            "election": 3,
+            "party": "Libertarian",
+            "state": "California",
+            "priority": 13,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 39,
+        "fields": {
+            "first_name": "Cheri",
+            "last_name": "Honkala",
+            "election": 3,
+            "party": "Green",
+            "state": "Pennsylvania",
+            "priority": 14,
+            "description": "n/a",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 40,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Huckabee",
+            "election": 3,
+            "party": "Republican",
+            "state": "Arkansas",
+            "priority": 15,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-huckabee-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As the former Governor of Arkansas and a 2008 Presidential candidate, Mike Huckabee is well known nationally, and contains impeccable credentials as a social and religious conservative. He has also spent several years in the media spotlight and is a comfortable public speaker and debater.</p><p>The risk with Huckabee is his potential to turn off moderate voters in swing states with religious pronouncements.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 41,
+        "fields": {
+            "first_name": "Andrew",
+            "last_name": "Napolitano",
+            "election": 3,
+            "party": "Independent",
+            "state": "New Jersey",
+            "priority": 16,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/andrew-napolitano-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Andrew Napolitano is a former New Jersey judge, a writer, and political commentator from the libertarian end of the political spectrum.</p><p>As a running mate, Napolitano would bring proven eloquence and media-savvy, and would raise the profile of the Ron Paul campaign, particularly on cable news.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 42,
+        "fields": {
+            "first_name": "Dennis",
+            "last_name": "Kucinich",
+            "election": 3,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 17,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/dennis-kucinich-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Dennis Kucinich is a former Congressman from Ohio, and also served as the mayor of Cleveland for two years in the 1970s.</p><p>Since Kucinich is a proponent of many left-wing views on economics, he could be a bridge candidate for Paul to draw protest votes from both the far left and right of the political spectrum. Paul could certainly use Kucinich to emphasize his anti-war, anti-DEA, and anti-Federal Reserve views as a common cause amongst both of these groups.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 43,
+        "fields": {
+            "first_name": "Rand",
+            "last_name": "Paul",
+            "election": 3,
+            "party": "Republican",
+            "state": "Kentucky",
+            "priority": 18,
+            "description": "n/a",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/rand-paul-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As a sitting U.S. Senator and son of Ron Paul, Rand Paul would make a natural running mate in many ways. He would immediately bring name recognition and political experience to an independent run by the elder Paul.</p><p>In reality though, it's unclear if Rand Paul would want to take on this role, as it would alienate him from the Republican Party and make a successful run for him in 2016 almost impossible.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 7,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 38
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 8,
+        "fields": {
+            "candidate": 19,
+            "running_mate": 39
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 1,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 3,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 31
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 9,
+        "fields": {
+            "candidate": 27,
+            "running_mate": 33
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 16,
+        "fields": {
+            "candidate": 29,
+            "running_mate": 33
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 4,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 32
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 2,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 34
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 5,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 33
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 6,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 18
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#3d0702", "header_image_url": "https://file.garden/Zrv1pPC1HzBK0svl/HeavensModBoxHeader.png", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#ffa49c", "main_color": "#5a2423", "secondary_color": "#3d0702", "ui_text_color": "#FFFFFF" }
+
+jet_data = {
+    "headerColor": "#3d0702",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#ffa49c",
+    "containerColor": "#5a2423",
+    "innerWindowColor": "#ffa49c",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#3d0702",
+    "bannerImageUrl": "https://files.catbox.moe/rb7hsi.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/HeavensFallBackground.png",
+    "gameTitle": "THE CAMPAIGN TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#0f172a",
+        "header_text_color": "#ffffff",
+        "description_background_color": "#ffffff",
+        "description_text_color": "#111827",
+        "main_color": "#bfe6ff",
+        "secondary_color": "#2563eb",
+        "ui_text_color": "#ffffff",
+        "site_title": "",
+        "site_image_url": ""
+    }
+};
+
+$(".container")[0].style.background = `
+  radial-gradient(circle at 20% 30%, #4b1410 0%, transparent 40%),
+  radial-gradient(circle at 80% 40%, #6d322f 0%, transparent 40%),
+  radial-gradient(circle at 50% 80%, #3b0e0e 0%, transparent 40%),
+  linear-gradient(135deg, #420100 0%, #5a2423 100%)
+`;
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #ffa49c !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #3d0702 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#3d0702";
+theme.coloring_window    = "#ffa49c";
+theme.coloring_container = "#5a2423";
+theme.header_image = "https://files.catbox.moe/rb7hsi.png";
+theme.body_background = "https://file.garden/Zrv1pPC1HzBK0svl/HeavensFallBackground.png";
+
+$("#game_window")[0].style.backgroundImage = "url(https://cdn.imgchest.com/files/fdc9f76a7b0f.png)"
+
+$("#game_window")[0].style.borderColor = "#573030"
+
+$(".container")[0].style.border = ".2em solid #573030"
+
+$(".footer")[0].style.borderColor = "#573030";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+applyTheme(theme);
+
+quotes = ["''In Washington, D.C., a gaffe is when you tell the truth.'' ~ Joe Biden", "''Stop talking about how you care about people. Show me something.'' ~ Joe Biden", "''The carnage was over, but there was still a bitter taste in my mouth.'' ~ Joe Biden", "''I absolutely refuse to surrender my responsibility to the federal government.'' ~ Joe Arpaio", "''A liberal utopia does indeed exist... It’s called prison.'' ~ Joe Arpaio", "''We learn by our problems. We correct our deficiencies if there are any.'' ~ Joe Arpaio", "''Suppressing ideas never succeeds in making them go away.'' ~ Barack Obama", "''I believe that when people are struggling, you don't talk down to them, you help lift them up.'' ~ Tammy Baldwin", "''To succeed, we have to be the party of change.'' ~ Bobby Jindal", "''Immigration without assimilation is an invasion.'' ~ Bobby Jindal", "''I’m not worried about where Barack Obama is from. I’m worried about where he’s going.'' ~ Bobby Jindal", "''Washington has a bad habit of a very short attention span.'' ~ Claire McCaskill", "''Anybody who knows me knows that I'm no attack dog.'' ~ Deval Patrick", "''You can see how dysfunctional this Congress is.'' ~ Pat Toomey", "''Fiat justitia ruat caelum.''", "''If President Obama... ever attempts gun confiscation... there should be & will be a second civil war.'' ~ Tom Tancredo", "''Our own civilization has lost its way, and this makes us even more vulnerable to Islamist nihilism.'' ~ Tom Tancredo", "''When a government gets in the habit of treating people differently, those habits can spread.'' ~ Barack Obama", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://www.newcampaigntrail.com/static/mod_icons/obama.png");
+
+HistHexcolour=["#0c3578","#78100c","#78560c","#0c780e"];
+    HistName=[" Joe Biden"," Joe Arpaio"," Gary Johnson"," Jill Stein/Others"];
+    HistEV=[272,266,0,0];
+    HistPV=["64,182,578","63,795,158","774,839","387,419"];
+    HistPVP=["49.7%","49.4%","0.6%","0.3%"];
+
+// Credits button
+(function () {
+  const creditsList = [
+    {
+      name: "C0SM0",
+      text: "for writing & coding. (˶˃ ᵕ ˂˶)",
+      image: "https://avatars.githubusercontent.com/u/171953810?v=4"
+    },
+    "<b>Cannonbollocks</b>, for providing the soundtrack code.",
+    "<b>Plotist</b>, for providing the lovely banner.",
+    "<b>Burrito2045 & Obummer</b>, for image & theme help.",
+    "Various codes provided by Mangolith & StrawberryMaster."
+  ];
+
+  if (typeof campaignTrail_temp !== 'undefined') {
+    campaignTrail_temp.credits = "<button class='credits-btn' onclick='window.showCredits()'>C0SM0</button>";
+  }
+
+  const injectCSS = () => {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+            .credits-btn {
+				color: #3d0702;
+				cursor: pointer;
+				font-weight: normal;
+				padding: .3em .5em;
+				text-decoration: underline;
+			}
+			.credits-btn:hover {
+				color: #004080;
+			}
+
+			/* Modal styling */
+			.credits-modal {
+				display: none;
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				align-items: center;
+                justify-content: center;
+			}
+			.credits-content {
+				background-color: #ffffff;
+				padding: 1rem;
+				border: .2rem groove #3d0702;
+				border-radius: .2rem .4rem;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				width: 40%;
+				max-width: 500px;
+				position: relative;
+				animation: fadeIn 0.3s;
+				display: flex;
+                flex-direction: column;
+                max-height: 90vh;
+			}
+			@keyframes fadeIn {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			.credits-content h3 {
+				margin-top: 0;
+				color: #333;
+				font-size: 14px;
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				flex-shrink: 0;
+			}
+
+			.credits-content ul {
+				list-style-type: none;
+				padding: 0;
+				overflow-y: auto;
+                padding-right: 5px;
+			}
+
+			.credits-content li {
+				padding: .4rem 0;
+				border-bottom: 2px dotted #ddd;
+				font-size: 12px;
+			}
+
+			.credits-content li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+
+			.credit-item-with-image {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.credit-avatar {
+				border: 2px groove #3d0702;
+				width: 90px;
+				height: 90px;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+
+			.credit-text {
+				flex: 1;
+			}
+
+			.credit-name {
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.close-credits {
+				position: absolute;
+				right: 12px;
+				top: 4px;
+				color: #aaa;
+				font-size: 30px;
+				font-weight: bold;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			.close-credits:hover {
+				color: #333;
+			}
+        `;
+    document.head.appendChild(styleElement);
+  };
+
+  const createModal = () => {
+    if (document.getElementById('creditsModal')) {
+      return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'creditsModal';
+    modal.className = 'credits-modal';
+
+    let creditsListHTML = '';
+    creditsList.forEach(credit => {
+      if (typeof credit === 'string') {
+        creditsListHTML += `<li>${credit}</li>`;
+      } else {
+        creditsListHTML += `
+                    <li>
+                        <div class="credit-item-with-image">
+                            <img src="${credit.image}" alt="${credit.name}" class="credit-avatar">
+                            <div class="credit-text">
+                                <span class="credit-name">${credit.name}</span>, ${credit.text}
+                            </div>
+                        </div>
+                    </li>
+                `;
+      }
+    });
+
+    modal.innerHTML = `
+            <div class="credits-content">
+                <span class="close-credits">&times;</span>
+                <h3>CREDITS</h3>
+                <ul>${creditsListHTML}</ul>
+            </div>
+        `;
+
+    document.body.appendChild(modal);
+
+    document.querySelector('.close-credits').addEventListener('click', hideCredits);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) {
+        hideCredits();
+      }
+    });
+  };
+
+  const showCredits = () => {
+    createModal();
+    document.getElementById('creditsModal').style.display = 'flex';
+  };
+
+  const hideCredits = () => {
+    const modal = document.getElementById('creditsModal');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  const setupKeyListener = () => {
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        hideCredits();
+      }
+    });
+  };
+
+  const init = () => {
+    injectCSS();
+    setupKeyListener();
+
+    window.showCredits = showCredits;
+  };
+
+  init();
+})();
+
+		e = campaignTrail_temp
+		
+		document.head.innerHTML += `<link
+		  rel="stylesheet"
+		  href="https://unpkg.com/7.css"
+		>`
+		
+		document.head.innerHTML += `<style>
+		h3 {
+			font-size:1.17em!important;
+			font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+		}
+	
+		label {
+			font-size:0.92em!important;
+			font-family: Segoe UI, "Helvetica Neue", Helvetica, sans-serif!important;
+		}
+	body {display:flex!important;}
+	
+	#game_window{max-width:1000px;}
+		</style>`
+	let contentBox = document.getElementsByClassName("content_box")[0];
+	let contentSingle = document.getElementsByClassName("content_single")[0];
+	
+	let containerRef = document.getElementsByClassName("container")[0];
+	
+	function createBanner(url, sibling, isLeft) {
+		let div = document.createElement("DIV");
+		let img = document.createElement("IMG");
+		div.style.position = "relative";
+		div.style.margin = "auto";
+		img.src = url;
+		
+	
+		let x = document.createElement("DIV");
+		x.innerText = "_";
+		x.style.position = "absolute";
+		x.style.padding = "2px";
+		x.style.fontSize = "2pt";
+		x.style.cursor = "pointer";
+	
+		div.appendChild(x);
+	
+		div.appendChild(img);
+	
+		if(isLeft) {
+			sibling.parentNode.insertBefore(div, sibling);
+		}
+		else {
+			sibling.parentNode.appendChild(div);
+		}
+		x.onclick = () => div.style.visibility = "hidden";
+		x.onclick = () => img.style.visibility = "hidden";
+		return img;
+	}
+	
+	function addDynamicCSS() {
+		var css = `
+	
+			label {
+			  display:inline-block;
+			}
+  
+			.content_single li {
+			  line-height: 1.39em;
+			}
+  
+			input[type=radio]+label {
+			  display: inline;
+			}
+	
+			.inner_window_question h3 .mytooltip{
+				background-color: lightblue;
+			}
+	
+			.mytooltip {
+				position: relative;
+				display: inline-block;
+				cursor: pointer;
+				background-color: #84c8db;
+			}
+	
+			.mytooltip .mytooltiptext {
+				width: 240px;
+				background-color: #00a2ed;
+				color: black;
+				text-align: center;
+				border-radius: 6px;
+				padding: 10px;
+				position: absolute;
+				z-index: 99;
+				bottom: 20%;
+				left: 20%;
+				margin-left: -90px;
+				opacity: 0;
+				transition: opacity 0.3s;
+				border: 1px solid black;
+				pointer-events: none;
+				font-size: 13px !important;
+				line-height: 1.5em !important;
+				font-weight: normal !important;
+				font-style: normal !important;
+			}
+	
+			.mytooltip .mytooltiptext img {
+				max-width: 240px;
+				height: auto;
+			}
+	
+			.mytooltip:hover .mytooltiptext {
+				opacity: 1;
+				transition-delay: 0.5s;
+			}
+  
+			#final_results_description p {
+			  color: black;
+			  font-family: Segoe UI;
+			}
+  
+			#overall_details_container h3 {
+			  color: white;
+			}
+  
+			#overall_election_details h4 {
+			  color: white;
+			}
+  
+			#main_content_area_reading p {
+			  color: white;
+			}
+  
+			#main_content_area_reading h3.results_tab_header {
+			  color: white;
+			}
+  
+			.inner_window_w_desc h3 {
+			  color: white;
+			}
+		`;
+	
+		var styleElem = document.createElement('style');
+		styleElem.type = 'text/css';
+		
+		styleElem.appendChild(document.createTextNode(css));
+		
+		document.head.appendChild(styleElem);
+	}
+	
+	
+	addDynamicCSS();
+
+	// Select the node that will be observed for mutations
+	const windowsAdvisorTargetNode = document.getElementById("game_window");
+	
+	// Options for the observer (which mutations to observe)
+	const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+	
+	// Callback function to execute when mutations are observed
+	const callback = (mutationList, observer) => {
+		visitWindow = document.getElementsByClassName("overlay_window")[0];
+	
+		if(visitWindow == null || visitWindow.classList.contains("done")) {
+			return;
+		}
+		visitWindow.classList.add("done");
+		visitWindow.classList.add("window");
+		let titleBar = visitWindow.querySelector("h3");
+		titleBar.classList.add("title-bar");
+		titleBar.classList.add("title-bar-text")
+		titleBar.style.paddingLeft = "3px";
+	};
+	
+	class Song {
+	  constructor(title, artist, genre, year, coverLink, audioLink) {
+		this.title = title;
+		this.artist = artist;
+		this.genre = genre;
+		this.year = year;
+		this.coverLink = coverLink;
+		this.audioLink = audioLink;
+	  }
+	  getTitle() {
+		return this.title;
+	  }
+	
+	  getArtist() {
+		return this.artist;
+	  }
+  
+	  getGenre() {
+		return this.genre;
+	  }
+  
+	  getYear() {
+		return this.year;
+	  }
+	
+	  getCoverLink() {
+		return this.coverLink;
+	  }
+	
+	  getAudioLink() {
+		return this.audioLink;
+	  }
+	}
+	
+	class Playlist {
+	  constructor() {
+		this.songs = [];
+		this.currentSongIndex = 0;
+	  }
+	
+	  addSong(song) {
+		this.songs.push(song);
+	  }
+	
+	  getCurrentSong() {
+		return this.songs[this.currentSongIndex];
+	  }
+	
+	  playNext() {
+		this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+	  }
+	
+	  playPrevious() {
+		this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+	  }
+	}
+	window.Playlist=Playlist
+	window.Song=Song
+	
+	function changePlaylist(newPlaylist) {
+	  playlist = newPlaylist;
+	  playlist.currentSongIndex = 0;
+	  updateUI(playlist);
+	  const audio = document.getElementById("audio");
+	  audio.src = playlist.getCurrentSong().audioLink;
+	  audio.play();
+	}
+	window.changePlaylist=changePlaylist
+	
+	function updateUI(playlist) {
+		const currentSong = playlist.getCurrentSong();
+		var player = document.getElementById("player");
+		player.querySelector("#cover").src = currentSong.getCoverLink();
+		player.querySelector("#title").textContent = currentSong.getTitle();
+		player.querySelector("#artist").textContent = currentSong.getArtist();
+		player.querySelector("#genre").textContent = currentSong.getGenre();
+		player.querySelector("#year").textContent = currentSong.getYear();
+	}
+	
+	window.updateUI=updateUI
+	
+	
+	function setupMusicPlayer() {
+	  playlist = new Playlist();
+	
+	
+	  const song1 = new Song(
+		"I Fought The Law",
+		"Green Day",
+		"Punk",
+		"2009",
+		"https://i1.sndcdn.com/artworks-AAoxgfMrji0L-0-t500x500.jpg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Green%20Day%20%20%20I%20Fought%20The%20Law%204.mp3"
+	  );
+  
+	  const song2 = new Song(
+		"The Dark Of The Matinee",
+		"Franz Ferdinand",
+		"Rock",
+		"2004",
+		"https://upload.wikimedia.org/wikipedia/en/b/bf/Franzferdinand_matinee.jpg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/The%20Dark%20Of%20The%20Matin%C3%A9e%204.mp3"
+	  );
+  
+	  const song3 = new Song(
+		"Fame < Infamy",
+		"Fall Out Boy",
+		"Punk",
+		"2007",
+		"https://m.media-amazon.com/images/I/71J+QkOmAKL._UF1000,1000_QL80_FMwebp_.jpg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Fame%20%E1%90%B8%20Infamy.mp3"
+	  );
+  
+	  const song4 = new Song(
+		"Karma Police",
+		"Radiohead",
+		"Alternative Rock",
+		"1997",
+		"https://files.catbox.moe/9vx49d.jpeg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Karma%20Police%204.mp3"
+	  );
+  
+	  const song5 = new Song(
+		"Time Is Running Out",
+		"Muse",
+		"Alternative Rock",
+		"2003",
+		"https://m.media-amazon.com/images/I/91olQTLED-L._UF1000,1000_QL80_FMwebp_.jpg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Time%20is%20Running%20Out%204.mp3"
+	  );
+  
+	  const song6 = new Song(
+		"Usual Suspects",
+		"Rick Ross",
+		"Hip-Hop",
+		"2009",
+		"https://upload.wikimedia.org/wikipedia/en/8/8d/Deeper_than_rap.jpeg",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Usual%20Suspects.mp3"
+	  );
+  
+	  const song7 = new Song(
+		"Want You Gone",
+		"Jonathan Coulton",
+		"Soundtrack",
+		"2011",
+		"https://i.postimg.cc/Xv9NBF7X/P2songstotestbyv1cover.webp",
+		"https://file.garden/Zrv1pPC1HzBK0svl/Want%20You%20Gone.mp3"
+	  );
+	
+	  playlist.addSong(song1);
+	  playlist.addSong(song2);
+	  playlist.addSong(song3);
+	  playlist.addSong(song4);
+	  playlist.addSong(song5);
+	  playlist.addSong(song6);
+	  playlist.addSong(song7);
+	
+	  const playerContainer = document.createElement("div");
+	  playerContainer.id = "player";
+	
+	 const displayBox = document.createElement("div");
+	displayBox.id = "display-box";
+	
+	const coverElement = document.createElement("img");
+	coverElement.id = "cover";
+	displayBox.appendChild(coverElement);
+	
+	const infoContainer = document.createElement("div");
+	infoContainer.id = "info-container";
+	infoContainer.style.backgroundImage = "url('')";
+	infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+	infoContainer.style.color = "black"; // Set text color to white
+	
+	const songInfo = document.createElement("div");
+	songInfo.id = "song-info";
+	
+	const titleElement = document.createElement("h3");
+	titleElement.id = "title";
+	titleElement.style.fontWeight = 'bold'; // Make it normal as per previous request
+	songInfo.appendChild(titleElement);
+	
+	const artistElement = document.createElement("p");
+	artistElement.id = "artist";
+	songInfo.appendChild(artistElement);
+  
+	const genreElement = document.createElement("p");
+	genreElement.id = "genre";
+	songInfo.appendChild(genreElement);
+  
+	const yearElement = document.createElement("p");
+	yearElement.id = "year";
+	songInfo.appendChild(yearElement);
+	
+	infoContainer.appendChild(songInfo);
+	displayBox.appendChild(infoContainer);
+	
+	playerContainer.appendChild(displayBox);
+	
+	const controlsContainer = document.createElement("div");
+	controlsContainer.id = "controls-container";
+	
+	const controls = document.createElement("div");
+	controls.id = "controls";
+	
+	const prevButton = document.createElement("img");
+	prevButton.id = "prevButton";
+	prevButton.src = "https://i.imgur.com/tbB2NMq.png";
+	prevButton.alt = "Previous";
+	controls.appendChild(prevButton);
+	
+	const playPauseButton = document.createElement("img");
+	playPauseButton.id = "playPauseButton";
+	playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png"; // Set the default play image
+	playPauseButton.alt = "Play/Pause";
+	controls.appendChild(playPauseButton);
+	
+	const nextButton = document.createElement("img");
+	nextButton.id = "nextButton";
+	nextButton.src = "https://i.imgur.com/e69GXWV.png";
+	nextButton.alt = "Next";
+	controls.appendChild(nextButton);
+	
+	controlsContainer.appendChild(controls);
+	
+	playPauseButton.addEventListener("click", function () {
+	  const audio = document.getElementById("audio");
+	  if (audio.paused) {
+		audio.play();
+		playPauseButton.src = "https://i.imgur.com/qLb9UqQ.png"; // Set the pause image
+	  } else {
+		audio.pause();
+		playPauseButton.src = "https://i.imgur.com/gZME5QC.png"; // Set the play image
+	  }
+	});
+	
+	nextButton.addEventListener("click", function () {
+	  playlist.playNext();
+	  updateUI(playlist);
+	  const audio = document.getElementById("audio");
+	  audio.src = playlist.getCurrentSong().audioLink;
+	  audio.play();
+	});
+	
+	prevButton.addEventListener("click", function () {
+	  playlist.playPrevious();
+	  updateUI(playlist);
+	  const audio = document.getElementById("audio");
+	  audio.src = playlist.getCurrentSong().audioLink;
+	  audio.play();
+	});
+	
+	  const progressBarContainer = document.createElement("div");
+	  progressBarContainer.id = "progress-bar-container";
+	  progressBarContainer.role = "progressbar";
+	
+	  const progressBar = document.createElement("div");
+	  progressBar.role = "paused";
+	  progressBar.id = "progress";
+	
+	
+	  progressBarContainer.appendChild(progressBar);
+	  controlsContainer.appendChild(progressBarContainer);
+	  playerContainer.appendChild(controlsContainer);
+	
+	 const volumeContainer = document.createElement("div");
+		volumeContainer.id = "volume-container";
+	
+	const volumeLabel = document.createElement("img");
+	volumeLabel.src = "https://i.imgur.com/fvct8dN.png";
+	volumeLabel.alt = "Volume";
+	volumeContainer.appendChild(volumeLabel);
+	
+		const volumeSliderContainer = document.createElement("div");
+		volumeSliderContainer.classList.add("is-vertical");
+		volumeSliderContainer.style.marginLeft = "45%";
+		volumeSliderContainer.style.height = "126px";
+	
+		const volumeSlider = document.createElement("input");
+		volumeSlider.type = "range";
+		volumeSlider.id = "volumeSlider";
+		volumeSlider.min = 0;
+		volumeSlider.max = 9;
+		volumeSlider.step = 1;
+		volumeSlider.value = 2; // Initial volume
+	
+		volumeSliderContainer.appendChild(volumeSlider);
+	
+		const volumeDisplay = document.createElement("span");
+		volumeDisplay.id = "volume-display";
+		volumeDisplay.style.fontWeight = 'bold'; 
+		volumeDisplay.style.display = 'none';
+		volumeDisplay.textContent = "1";
+	
+		volumeContainer.appendChild(volumeSliderContainer);
+		volumeContainer.appendChild(volumeDisplay);
+	
+		playerContainer.appendChild(volumeContainer);
+	
+	  gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+	
+	
+	  function updateProgressBar() {
+		const audio = document.getElementById("audio");
+		const progress = (audio.currentTime / audio.duration) * 100;
+		try{progressBar.style.width = progress + "%";}
+		catch{}
+	  }
+	
+	 
+	  progressBar.addEventListener("input", function () {
+		const audio = document.getElementById("audio");
+		const seekTime = (progressBar.value / 100) * audio.duration;
+		audio.currentTime = seekTime;
+	  });
+	
+	  const audio = document.createElement("audio");
+	  audio.id = "audio";
+	  audio.src = playlist.getCurrentSong().audioLink;
+	  audio.volume = 1/9;
+	
+	  audio.addEventListener("timeupdate", updateProgressBar);
+	  audio.addEventListener("ended", function () {
+		  // Play the next song when the current song ends
+		  playlist.playNext();
+		  updateUI(playlist);
+		  audio.src = playlist.getCurrentSong().audioLink;
+		  audio.play();
+		});
+	
+		let currentVolume = 2; // Initial volume
+	
+		volumeSlider.addEventListener("input", function () {
+		  currentVolume = parseInt(volumeSlider.value, 10);
+		  updateVolumeDisplay();
+		  updateAudioVolume();
+		});
+	
+		function updateVolumeDisplay() {
+		  volumeDisplay.textContent = currentVolume;
+		}
+	
+	   function updateAudioVolume() {
+		const audio = document.getElementById("audio");
+		audio.volume = currentVolume / 9; // Set volume between 0 and 1
+	  }
+	
+	  document.body.appendChild(audio);
+	  audio.play();
+	
+	  // Update the UI when the page loads
+	  updateUI(playlist);
+	}
+	
+	const style = document.createElement("style");
+	style.textContent = `
+	#player {
+		border: 3px solid #573030; /* Add your desired border style */
+		display: flex;
+		flex-direction: row;
+		height:191px;
+		background-Image: url("https://i.imgur.com/l2YqtSl.png");
+	  }
+	
+	  #display-box {
+		display: flex;
+		align-items: center;
+		width: 50%;
+	  }
+  
+	  p#credits {
+		color: white;
+	  }
+	
+	  #cover {
+		width: 176px;
+		height:176px;
+	  }
+  
+	  #final_results_description p {
+		color: white;
+	  }
+	
+	  #info-container {
+		display: flex;
+		flex-direction: row;
+		height:185px;
+		width:185px;
+		margin-top: 3px;
+		font-family: Segoe UI;
+	  }
+	
+	  #song-info {
+		width: 100%;
+		padding:5px;
+	  }
+	
+	  #controls-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px;
+		width:100%;
+		padding-top:15px;
+	
+	  }
+	  .is-vertical #volumeSlider {
+	  width: 125px;
+	}
+	
+	  #controls {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 80%;
+	  }
+	
+	  #progress-bar-container {
+		width: 100%;
+	  }
+	
+	  #progress-bar {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		margin-Top: 20px;
+	  }
+	  
+	`;
+	
+	document.head.appendChild(style);
+	
+	const gameWindow_player = document.getElementById("game_window");
+	//use this function directly or put it in an event listener to start the music on the press of a certain button
+	setupMusicPlayer();
+
+//#endcode
