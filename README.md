@@ -242,7 +242,7 @@ Hope y'all enjoy these mockups! This repo can illustrate how much I've grown as 
 
 -------
 
-Shoutout to the ones creating the Code 1 tools & the TCT Community for assisting or noticing all of these! Particularly, StrawberryMaster, Metheguy, MeerkatHistorian, Burrito2045, E, Mngolith, Astro, Jet, & all others I've missed; **you all rock!** (˶ᵔ ᵕ ᵔ˶)
+Shoutout to the ones creating the Code 1 tools & the TCT Community for assisting or noticing all of these! Particularly, StrawberryMaster, Metheguy, MeerkatHistorian, Burrito2045, E, Mangolith, Astro, Jet, & all others I've missed; **you all rock!** (˶ᵔ ᵕ ᵔ˶)
 
 ~~Holy shit, I've made so much of these for way too long lmao.~~ But anyways, I'm still making them even after **2 years!** There'll always be more to come soon, so stay tuned! (˶˃ ᵕ ˂˶)
 
