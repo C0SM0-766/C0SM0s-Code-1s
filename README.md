@@ -237,6 +237,9 @@ Hope y'all enjoy these mockups. This repo can illustrate how much I've grown as 
 **2023 House Speaker**
 - Creation Date: August 7th, 2026
 
+**2024: The Amazing Digital Campaign Trail**
+- Creation Date: August 30th, 2026
+
 -------
 
 ~~Holy shit, I've made so much of these for way too long lmao.~~ But anyways, I'm still making them even after **2 years!** There'll always be more to come soon, so stay tuned! (˶˃ ᵕ ˂˶)
