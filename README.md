@@ -5,17 +5,19 @@
 > "r/thecampaigntrail users making the greatest mockups known to man (It will never be a mod)"
 > ~ u/MistaBombasticFanta
 
-Oh! Hey there! Didn't expect you to lurk around my Github repository, but I kinda should've expected that when I had linked my Github account on Discord.
+Oh! Hey there! Didn't expect you to lurk around my Github repository... but I kinda should've expected that when I had linked my Github account on Discord.
 
-These are just a bunch of code 1s I created over my time in the NCT code 1 maker (later switched to Jet's Code 1 tool & then to SBM's Code 1 Tool). I have no intention of making any of these into full-on mods, nor will I attempt to do such a feat. I lack the time, skill, knowledge, & even motivation to pursue a full mod.
+These are just a bunch of Code Ones I created over my time in the NCT code 1 maker, later switched to Jet's Code 1 tool & then to SBM's Code 1 Tool. I have no intention of making any of these into full-on mods, nor will I attempt to do such a feat. I lack the time, skill, knowledge, or even motivation to pursue a full mod.
 
 I'm disheartened by the amount of amazing mods that were unfortunately canceled for numerous reasons—Abyss '76, 2024-Way, 1948 Identity War Redux, etc. There's also many interesting mod mockups that were made that will most likely never become into fully developed mods. Examples include 2024 Election Theory, 2021 NYC, The Hazbin Trail, & 1976 Byrd.
 
-The conclusion I came up with to cope is: **make code 1s for these unfinished mods & mod mockups!**
+The conclusion I came up with to cope with this is to **make code 1s for these unfinished mods & mod mockups!**
 
-Over time, I generally got used to adding more and more codes, as well as adding in various stuff such as soundtracks, improved images, inclusion of various codes, etc. I also decided to originally created my mockups—ones I made by myself from the idea to the execution. Over time, the quality has gotten exponentially better—the age of the older code 1s is clearly shown, and I'd prefer to not update them for preservation purposes.
+Over time, I generally got used to creating mockups. Down the line, I added more and more detail & effort into these, as well as adding in various addons such as soundtracks, improved images, etc. I also decided to originally create my own mockups—ones I made by myself from the idea to the execution. Over time, the quality has gotten exponentially better—the age of the older code 1s is clearly shown, and I'd prefer to not update them for preservation purposes.
 
-Hope y'all enjoy these mockups. This repo can illustrate how much I've grown as a mod concept maker.
+Hope y'all enjoy these mockups. This repo can illustrate how much I've grown as a mod mockup maker.
+
+Shoutout to the ones creating the Code 1 tools & the TCT Community for assisting or noticing all of these! Particularly, StrawberryMaster, Metheguy, MeerkatHistorian, Burrito2045, Jet, & all others I've missed; you all rock! (˶ᵔ ᵕ ᵔ˶)
 
 ---------
 
